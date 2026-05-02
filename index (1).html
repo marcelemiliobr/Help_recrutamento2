@@ -1,0 +1,3185 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+  <!-- Primary Meta Tags -->
+  <title>Help Recrutamento — Vagas em Mato Grosso | Rumo, Vidal, GLT, Hyundai</title>
+  <meta name="title" content="Help Recrutamento — Vagas em Mato Grosso | Rumo, Vidal, GLT, Hyundai" />
+  <meta name="description" content="Conectamos talentos às melhores empresas do Centro-Oeste. Vagas em Rondonópolis, Cuiabá, Campo Verde e Alto Garças. Parceira oficial Rumo Logística, Vidal Transportes, GLT e Hyundai. Cadastre seu currículo grátis." />
+  <meta name="keywords" content="vagas mato grosso, emprego rondonópolis, recrutamento mt, rumo logística vagas, vidal transportes vagas, emprego cuiabá, vagas centro-oeste" />
+  <meta name="author" content="Help Recrutamento" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://marcelemiliobr.github.io/help-recrutamento/" />
+
+  <!-- Open Graph / Facebook / WhatsApp -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://marcelemiliobr.github.io/help-recrutamento/" />
+  <meta property="og:title" content="Help Recrutamento — Vagas em Mato Grosso" />
+  <meta property="og:description" content="Conectamos talentos às melhores empresas do Centro-Oeste. +200 candidatos cadastrados. Parceira oficial Rumo Logística, Vidal, GLT e Hyundai." />
+  <meta property="og:image" content="https://marcelemiliobr.github.io/help-recrutamento/og-image.jpg" />
+  <meta property="og:locale" content="pt_BR" />
+  <meta property="og:site_name" content="Help Recrutamento" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Help Recrutamento — Vagas em Mato Grosso" />
+  <meta name="twitter:description" content="Conectamos talentos às melhores empresas do Centro-Oeste. Cadastre seu currículo." />
+  <meta name="twitter:image" content="https://marcelemiliobr.github.io/help-recrutamento/og-image.jpg" />
+
+  <!-- Theme color -->
+  <meta name="theme-color" content="#0F1B14" />
+
+  <!-- Favicon (inline SVG) -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='%230F1B14'/%3E%3Ctext x='50' y='68' font-family='Georgia,serif' font-size='58' font-weight='700' text-anchor='middle' fill='%23E85D2F' font-style='italic'%3Eh%3C/text%3E%3C/svg%3E" />
+
+  <!-- Fonts: Fraunces (display serif) + DM Sans (body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..900;1,9..144,300..900&family=DM+Sans:ital,opsz,wght@0,9..40,300..900;1,9..40,300..900&display=swap" rel="stylesheet" />
+
+  <!-- Schema.org JobPosting (Google for Jobs) - example structure for one vaga -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Help Recrutamento",
+    "url": "https://marcelemiliobr.github.io/help-recrutamento/",
+    "logo": "https://marcelemiliobr.github.io/help-recrutamento/logo.png",
+    "description": "Empresa especializada em recrutamento e seleção em Mato Grosso e região Centro-Oeste do Brasil.",
+    "address": {
+      "@type": "PostalAddress",
+      "addressRegion": "MT",
+      "addressCountry": "BR"
+    },
+    "sameAs": [
+      "https://instagram.com/helprecrutamentos"
+    ]
+  }
+  </script>
+  <script type="application/ld+json" id="job-postings-schema">
+  {
+    "@context": "https://schema.org",
+    "@graph": []
+  }
+  </script>
+
+  <style>
+    /* ==========================================================
+       DESIGN TOKENS
+       ========================================================== */
+    :root {
+      /* Palette — editorial cream + deep ink + Brazilian persimmon */
+      --bg: #FAF8F3;
+      --bg-warm: #F4F0E6;
+      --surface: #FFFFFF;
+      --ink: #0F1B14;
+      --ink-soft: #1F2A23;
+      --muted: #6B7470;
+      --muted-soft: #9CA39F;
+      --line: #E5E0D2;
+      --line-soft: #EFEAE0;
+
+      --brand: #E85D2F;       /* persimmon — Brazilian warmth */
+      --brand-hover: #D04E22;
+      --brand-soft: #FBE8DD;
+      --accent: #2E5D4F;      /* forest green — trust */
+      --accent-soft: #DCE8E1;
+      --gold: #C9A961;        /* subtle gold for highlights */
+
+      --success: #2E5D4F;
+      --warning: #B8860B;
+      --error: #B23A3A;
+
+      /* Type */
+      --font-display: 'Fraunces', 'Georgia', serif;
+      --font-sans: 'DM Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+
+      /* Spacing scale */
+      --s-1: 4px;
+      --s-2: 8px;
+      --s-3: 12px;
+      --s-4: 16px;
+      --s-5: 24px;
+      --s-6: 32px;
+      --s-7: 48px;
+      --s-8: 64px;
+      --s-9: 96px;
+      --s-10: 128px;
+
+      /* Radii */
+      --r-sm: 6px;
+      --r-md: 10px;
+      --r-lg: 16px;
+      --r-xl: 24px;
+      --r-pill: 999px;
+
+      /* Shadow */
+      --sh-sm: 0 1px 2px rgba(15, 27, 20, 0.04), 0 1px 1px rgba(15, 27, 20, 0.03);
+      --sh-md: 0 4px 12px rgba(15, 27, 20, 0.06), 0 2px 4px rgba(15, 27, 20, 0.04);
+      --sh-lg: 0 12px 40px rgba(15, 27, 20, 0.10), 0 4px 12px rgba(15, 27, 20, 0.06);
+      --sh-xl: 0 24px 60px rgba(15, 27, 20, 0.14);
+
+      /* Layout */
+      --container: 1200px;
+      --container-narrow: 920px;
+
+      /* Motion */
+      --ease: cubic-bezier(0.22, 0.61, 0.36, 1);
+      --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+    }
+
+    /* ==========================================================
+       RESET + BASE
+       ========================================================== */
+    *, *::before, *::after { box-sizing: border-box; }
+    * { margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
+    body {
+      font-family: var(--font-sans);
+      background: var(--bg);
+      color: var(--ink);
+      line-height: 1.55;
+      font-size: 16px;
+      font-weight: 400;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      overflow-x: hidden;
+    }
+    img, svg { display: block; max-width: 100%; }
+    button { font: inherit; cursor: pointer; border: 0; background: transparent; color: inherit; }
+    a { color: inherit; text-decoration: none; }
+    input, select, textarea { font: inherit; color: inherit; }
+    h1, h2, h3, h4, h5, h6 { font-family: var(--font-display); font-weight: 500; line-height: 1.05; letter-spacing: -0.02em; color: var(--ink); }
+    .italic { font-style: italic; font-variation-settings: 'SOFT' 100; }
+
+    /* Container utilities */
+    .container { width: 100%; max-width: var(--container); margin: 0 auto; padding: 0 24px; }
+    .container-narrow { max-width: var(--container-narrow); }
+    @media (max-width: 640px) {
+      .container { padding: 0 20px; }
+    }
+
+    /* Section spacing */
+    .section { padding: var(--s-9) 0; }
+    .section-tight { padding: var(--s-7) 0; }
+    @media (max-width: 768px) {
+      .section { padding: 64px 0; }
+      .section-tight { padding: 40px 0; }
+    }
+
+    /* Eyebrow label */
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      font-family: var(--font-sans);
+      font-size: 12px;
+      font-weight: 500;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--brand);
+    }
+    .eyebrow::before {
+      content: '';
+      width: 24px;
+      height: 1px;
+      background: var(--brand);
+    }
+
+    /* Buttons */
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      padding: 14px 22px;
+      border-radius: var(--r-pill);
+      font-weight: 500;
+      font-size: 15px;
+      letter-spacing: -0.01em;
+      transition: all 0.25s var(--ease);
+      white-space: nowrap;
+      text-align: center;
+    }
+    .btn-primary {
+      background: var(--ink);
+      color: var(--bg);
+    }
+    .btn-primary:hover {
+      background: var(--brand);
+      transform: translateY(-1px);
+      box-shadow: var(--sh-md);
+    }
+    .btn-brand {
+      background: var(--brand);
+      color: white;
+    }
+    .btn-brand:hover {
+      background: var(--brand-hover);
+      transform: translateY(-1px);
+      box-shadow: 0 8px 24px rgba(232, 93, 47, 0.35);
+    }
+    .btn-ghost {
+      background: transparent;
+      color: var(--ink);
+      border: 1px solid var(--line);
+    }
+    .btn-ghost:hover {
+      background: var(--ink);
+      color: var(--bg);
+      border-color: var(--ink);
+    }
+    .btn-link {
+      padding: 0;
+      color: var(--ink);
+      border-bottom: 1px solid currentColor;
+      border-radius: 0;
+      padding-bottom: 2px;
+    }
+    .btn-link:hover { color: var(--brand); }
+    .btn-sm { padding: 10px 16px; font-size: 14px; }
+    .btn-lg { padding: 18px 28px; font-size: 16px; }
+    .btn-block { width: 100%; }
+
+    .btn .arrow {
+      transition: transform 0.25s var(--ease);
+    }
+    .btn:hover .arrow {
+      transform: translateX(3px);
+    }
+
+    /* ==========================================================
+       NAV
+       ========================================================== */
+    .nav {
+      position: sticky;
+      top: 0;
+      z-index: 50;
+      background: rgba(250, 248, 243, 0.85);
+      backdrop-filter: saturate(160%) blur(14px);
+      -webkit-backdrop-filter: saturate(160%) blur(14px);
+      border-bottom: 1px solid transparent;
+      transition: border-color 0.3s var(--ease);
+    }
+    .nav.scrolled {
+      border-bottom-color: var(--line);
+    }
+    .nav-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 72px;
+    }
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-family: var(--font-display);
+      font-size: 22px;
+      font-weight: 600;
+      letter-spacing: -0.03em;
+    }
+    .logo-mark {
+      width: 36px; height: 36px;
+      background: var(--ink);
+      color: var(--brand);
+      border-radius: 8px;
+      display: grid; place-items: center;
+      font-style: italic;
+      font-size: 22px;
+      font-weight: 600;
+    }
+    .logo-text { display: flex; flex-direction: column; line-height: 1; }
+    .logo-text strong { font-weight: 600; }
+    .logo-text span { font-size: 11px; letter-spacing: 0.18em; text-transform: uppercase; color: var(--muted); font-family: var(--font-sans); margin-top: 3px; }
+
+    .nav-links {
+      display: flex;
+      gap: 32px;
+      align-items: center;
+    }
+    .nav-links a {
+      font-size: 14px;
+      color: var(--ink-soft);
+      transition: color 0.2s;
+      position: relative;
+    }
+    .nav-links a:hover { color: var(--brand); }
+
+    .nav-cta {
+      display: flex;
+      gap: 12px;
+      align-items: center;
+    }
+
+    .nav-toggle {
+      display: none;
+      width: 40px; height: 40px;
+      border-radius: 8px;
+      border: 1px solid var(--line);
+    }
+    .nav-toggle svg { margin: auto; }
+
+    @media (max-width: 900px) {
+      .nav-links, .nav-cta .btn-ghost { display: none; }
+      .nav-toggle { display: flex; align-items: center; }
+    }
+    @media (max-width: 480px) {
+      .logo-text span { display: none; }
+    }
+
+    /* Mobile menu drawer */
+    .mobile-menu {
+      position: fixed;
+      inset: 72px 0 0 0;
+      background: var(--bg);
+      transform: translateY(-110%);
+      transition: transform 0.4s var(--ease-out);
+      z-index: 40;
+      padding: 32px 24px;
+      border-top: 1px solid var(--line);
+      overflow-y: auto;
+    }
+    .mobile-menu.open { transform: translateY(0); }
+    .mobile-menu a {
+      display: block;
+      padding: 18px 0;
+      font-size: 22px;
+      font-family: var(--font-display);
+      letter-spacing: -0.02em;
+      border-bottom: 1px solid var(--line);
+      color: var(--ink);
+    }
+    .mobile-menu .btn { margin-top: 32px; width: 100%; }
+
+    /* ==========================================================
+       HERO
+       ========================================================== */
+    .hero {
+      position: relative;
+      padding: 80px 0 96px;
+      overflow: hidden;
+    }
+    .hero-bg {
+      position: absolute;
+      inset: 0;
+      pointer-events: none;
+      background:
+        radial-gradient(ellipse 60% 40% at 80% 20%, rgba(232, 93, 47, 0.07), transparent 60%),
+        radial-gradient(ellipse 50% 40% at 10% 90%, rgba(46, 93, 79, 0.06), transparent 60%);
+    }
+    .hero-grain {
+      position: absolute;
+      inset: 0;
+      pointer-events: none;
+      opacity: 0.4;
+      mix-blend-mode: multiply;
+      background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 0.4 0 0 0 0 0.4 0 0 0 0 0.4 0 0 0 0.05 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+    }
+
+    .hero-grid {
+      position: relative;
+      display: grid;
+      grid-template-columns: 1.4fr 1fr;
+      gap: 80px;
+      align-items: center;
+    }
+    @media (max-width: 980px) {
+      .hero-grid { grid-template-columns: 1fr; gap: 56px; }
+    }
+
+    .hero-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      padding: 8px 14px 8px 10px;
+      background: var(--surface);
+      border: 1px solid var(--line);
+      border-radius: var(--r-pill);
+      font-size: 13px;
+      color: var(--ink-soft);
+      box-shadow: var(--sh-sm);
+      margin-bottom: 28px;
+    }
+    .hero-badge .dot {
+      width: 8px; height: 8px;
+      border-radius: 50%;
+      background: var(--brand);
+      box-shadow: 0 0 0 4px rgba(232, 93, 47, 0.15);
+      animation: pulse 2.4s ease-in-out infinite;
+    }
+    @keyframes pulse {
+      0%, 100% { box-shadow: 0 0 0 4px rgba(232, 93, 47, 0.15); }
+      50% { box-shadow: 0 0 0 8px rgba(232, 93, 47, 0); }
+    }
+    .hero-badge strong { font-weight: 600; color: var(--ink); }
+
+    .hero h1 {
+      font-size: clamp(44px, 6.4vw, 84px);
+      font-weight: 400;
+      line-height: 0.98;
+      letter-spacing: -0.035em;
+      margin-bottom: 24px;
+    }
+    .hero h1 em {
+      font-style: italic;
+      color: var(--brand);
+      font-variation-settings: 'SOFT' 100;
+    }
+    .hero p.lead {
+      font-size: 19px;
+      color: var(--muted);
+      max-width: 540px;
+      line-height: 1.55;
+      margin-bottom: 36px;
+    }
+    .hero-actions {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+      margin-bottom: 40px;
+    }
+    .hero-trust {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      font-size: 13px;
+      color: var(--muted);
+    }
+    .avatars {
+      display: flex;
+    }
+    .avatars span {
+      width: 32px; height: 32px;
+      border-radius: 50%;
+      border: 2px solid var(--bg);
+      background: linear-gradient(135deg, var(--brand) 0%, #F2A285 100%);
+      margin-left: -8px;
+      display: grid; place-items: center;
+      font-size: 12px;
+      font-weight: 600;
+      color: white;
+    }
+    .avatars span:first-child { margin-left: 0; background: linear-gradient(135deg, #2E5D4F, #6BAA75); }
+    .avatars span:nth-child(2) { background: linear-gradient(135deg, #C9A961, #E8C988); }
+    .avatars span:nth-child(3) { background: linear-gradient(135deg, var(--brand), #F2A285); }
+    .avatars span:nth-child(4) { background: linear-gradient(135deg, #4A5D7A, #7B8FAE); color: white; }
+    .stars {
+      display: inline-flex;
+      gap: 2px;
+      color: var(--gold);
+    }
+
+    /* Hero card / visual right side */
+    .hero-card {
+      position: relative;
+      perspective: 1500px;
+    }
+    .floating-card {
+      background: var(--surface);
+      border: 1px solid var(--line);
+      border-radius: var(--r-lg);
+      padding: 24px;
+      box-shadow: var(--sh-lg);
+      transform: rotate(-2deg);
+      animation: float 6s ease-in-out infinite;
+    }
+    @keyframes float {
+      0%, 100% { transform: rotate(-2deg) translateY(0); }
+      50% { transform: rotate(-2deg) translateY(-6px); }
+    }
+    .floating-card-2 {
+      position: absolute;
+      bottom: -20px;
+      right: -20px;
+      transform: rotate(3deg);
+      animation-delay: -3s;
+      max-width: 280px;
+    }
+    @media (max-width: 980px) {
+      .floating-card-2 { right: 10px; bottom: -10px; max-width: 240px; }
+    }
+
+    .job-mini {
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+    }
+    .job-mini-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .job-mini-company {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-weight: 500;
+      font-size: 14px;
+    }
+    .company-mark {
+      width: 36px; height: 36px;
+      border-radius: 8px;
+      background: var(--ink);
+      color: var(--brand);
+      display: grid; place-items: center;
+      font-weight: 700;
+      font-size: 13px;
+      letter-spacing: 0.05em;
+    }
+    .pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 4px 10px;
+      border-radius: var(--r-pill);
+      font-size: 12px;
+      font-weight: 500;
+    }
+    .pill-success { background: var(--accent-soft); color: var(--accent); }
+    .pill-brand { background: var(--brand-soft); color: var(--brand); }
+    .pill-soft { background: var(--bg-warm); color: var(--ink-soft); }
+
+    .job-mini h3 {
+      font-family: var(--font-sans);
+      font-size: 18px;
+      font-weight: 600;
+      letter-spacing: -0.01em;
+    }
+    .job-mini-meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+    }
+    .job-mini-progress {
+      margin-top: 4px;
+    }
+    .job-mini-progress-row {
+      display: flex;
+      justify-content: space-between;
+      font-size: 12px;
+      color: var(--muted);
+      margin-bottom: 6px;
+    }
+    .progress-bar {
+      height: 6px;
+      background: var(--line-soft);
+      border-radius: var(--r-pill);
+      overflow: hidden;
+    }
+    .progress-fill {
+      height: 100%;
+      background: linear-gradient(90deg, var(--brand), #F2A285);
+      border-radius: var(--r-pill);
+      width: 75%;
+    }
+
+    /* ==========================================================
+       TRUST BAR (logos)
+       ========================================================== */
+    .trust-bar {
+      padding: 36px 0;
+      border-top: 1px solid var(--line);
+      border-bottom: 1px solid var(--line);
+      background: var(--bg-warm);
+    }
+    .trust-bar-label {
+      text-align: center;
+      font-size: 12px;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-bottom: 24px;
+    }
+    .trust-logos {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      gap: 32px 56px;
+    }
+    .trust-logo {
+      font-family: var(--font-display);
+      font-size: 24px;
+      font-weight: 600;
+      letter-spacing: -0.02em;
+      color: var(--ink-soft);
+      opacity: 0.7;
+      transition: opacity 0.3s, color 0.3s;
+      white-space: nowrap;
+    }
+    .trust-logo:hover { opacity: 1; color: var(--brand); }
+    .trust-logo small {
+      font-family: var(--font-sans);
+      font-size: 10px;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      display: block;
+      font-weight: 500;
+      color: var(--muted);
+    }
+
+    /* ==========================================================
+       STATS
+       ========================================================== */
+    .stats {
+      background: var(--ink);
+      color: var(--bg);
+      padding: 80px 0;
+      position: relative;
+      overflow: hidden;
+    }
+    .stats::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background:
+        radial-gradient(ellipse 50% 40% at 20% 100%, rgba(232, 93, 47, 0.18), transparent 60%),
+        radial-gradient(ellipse 40% 30% at 80% 0%, rgba(46, 93, 79, 0.18), transparent 60%);
+    }
+    .stats-inner { position: relative; }
+    .stats-header {
+      text-align: center;
+      max-width: 700px;
+      margin: 0 auto 64px;
+    }
+    .stats-header .eyebrow { color: var(--brand); }
+    .stats-header h2 {
+      font-size: clamp(36px, 4.5vw, 56px);
+      color: var(--bg);
+      margin-top: 16px;
+    }
+    .stats-header h2 em { font-style: italic; color: var(--gold); }
+
+    .stats-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 32px;
+    }
+    @media (max-width: 900px) {
+      .stats-grid { grid-template-columns: repeat(2, 1fr); gap: 40px 24px; }
+    }
+    @media (max-width: 480px) {
+      .stats-grid { grid-template-columns: 1fr; }
+    }
+    .stat {
+      border-top: 1px solid rgba(255, 255, 255, 0.12);
+      padding-top: 24px;
+    }
+    .stat-num {
+      font-family: var(--font-display);
+      font-size: clamp(48px, 6vw, 80px);
+      font-weight: 400;
+      line-height: 1;
+      letter-spacing: -0.04em;
+      color: var(--bg);
+      margin-bottom: 12px;
+    }
+    .stat-num em { font-style: italic; color: var(--brand); }
+    .stat-label {
+      font-size: 14px;
+      color: rgba(250, 248, 243, 0.72);
+      line-height: 1.5;
+    }
+
+    /* ==========================================================
+       HOW IT WORKS
+       ========================================================== */
+    .how-header {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 64px;
+      align-items: end;
+      margin-bottom: 64px;
+    }
+    @media (max-width: 800px) {
+      .how-header { grid-template-columns: 1fr; gap: 24px; margin-bottom: 48px; }
+    }
+    .how-header h2 {
+      font-size: clamp(36px, 4.5vw, 56px);
+    }
+    .how-header h2 em { font-style: italic; color: var(--brand); }
+    .how-header p {
+      font-size: 17px;
+      color: var(--muted);
+      max-width: 460px;
+    }
+
+    .steps {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 24px;
+      position: relative;
+    }
+    @media (max-width: 900px) {
+      .steps { grid-template-columns: repeat(2, 1fr); }
+    }
+    @media (max-width: 540px) {
+      .steps { grid-template-columns: 1fr; }
+    }
+    .step {
+      background: var(--surface);
+      border: 1px solid var(--line);
+      border-radius: var(--r-lg);
+      padding: 32px 28px;
+      position: relative;
+      transition: all 0.3s var(--ease);
+    }
+    .step:hover {
+      transform: translateY(-4px);
+      border-color: var(--ink);
+      box-shadow: var(--sh-lg);
+    }
+    .step-num {
+      font-family: var(--font-display);
+      font-size: 14px;
+      font-weight: 600;
+      color: var(--brand);
+      letter-spacing: 0.1em;
+      margin-bottom: 28px;
+    }
+    .step-icon {
+      width: 48px; height: 48px;
+      border-radius: 12px;
+      background: var(--brand-soft);
+      display: grid; place-items: center;
+      margin-bottom: 20px;
+      color: var(--brand);
+    }
+    .step h3 {
+      font-family: var(--font-sans);
+      font-size: 18px;
+      font-weight: 600;
+      letter-spacing: -0.01em;
+      margin-bottom: 10px;
+    }
+    .step p {
+      font-size: 14px;
+      color: var(--muted);
+      line-height: 1.55;
+    }
+
+    /* ==========================================================
+       VAGAS
+       ========================================================== */
+    .vagas-section {
+      background: var(--bg-warm);
+    }
+    .vagas-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: end;
+      gap: 32px;
+      margin-bottom: 48px;
+      flex-wrap: wrap;
+    }
+    .vagas-header h2 {
+      font-size: clamp(36px, 4.5vw, 56px);
+    }
+    .vagas-header h2 em { font-style: italic; color: var(--brand); }
+    .vagas-count {
+      font-size: 15px;
+      color: var(--muted);
+    }
+    .vagas-count strong { color: var(--ink); font-weight: 600; }
+
+    /* Filters */
+    .filters {
+      background: var(--surface);
+      border: 1px solid var(--line);
+      border-radius: var(--r-lg);
+      padding: 24px;
+      margin-bottom: 32px;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr) auto;
+      gap: 16px;
+      align-items: end;
+    }
+    @media (max-width: 800px) {
+      .filters { grid-template-columns: 1fr; }
+    }
+    .filter-group label {
+      display: block;
+      font-size: 12px;
+      font-weight: 500;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--muted);
+      margin-bottom: 6px;
+    }
+    .filter-group select,
+    .filter-group input {
+      width: 100%;
+      padding: 12px 14px;
+      background: var(--bg-warm);
+      border: 1px solid transparent;
+      border-radius: var(--r-md);
+      font-size: 14px;
+      color: var(--ink);
+      transition: all 0.2s;
+      cursor: pointer;
+      appearance: none;
+      -webkit-appearance: none;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%230F1B14' stroke-width='1.5' fill='none' stroke-linecap='round'/%3E%3C/svg%3E");
+      background-repeat: no-repeat;
+      background-position: right 14px center;
+      padding-right: 36px;
+    }
+    .filter-group select:focus,
+    .filter-group input:focus {
+      outline: none;
+      border-color: var(--ink);
+      background-color: var(--surface);
+    }
+    .filters-clear {
+      padding: 12px 18px;
+      font-size: 13px;
+      color: var(--muted);
+      border-radius: var(--r-md);
+      transition: color 0.2s;
+    }
+    .filters-clear:hover { color: var(--brand); }
+
+    /* Job cards */
+    .vagas-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 16px;
+    }
+    @media (max-width: 800px) {
+      .vagas-grid { grid-template-columns: 1fr; }
+    }
+    .vaga-card {
+      background: var(--surface);
+      border: 1px solid var(--line);
+      border-radius: var(--r-lg);
+      padding: 28px;
+      cursor: pointer;
+      transition: all 0.3s var(--ease);
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+    .vaga-card:hover {
+      border-color: var(--ink);
+      transform: translateY(-2px);
+      box-shadow: var(--sh-md);
+    }
+    .vaga-card-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 12px;
+    }
+    .vaga-company {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 13px;
+      font-weight: 500;
+      color: var(--muted);
+    }
+    .vaga-card h3 {
+      font-family: var(--font-sans);
+      font-size: 20px;
+      font-weight: 600;
+      letter-spacing: -0.015em;
+      line-height: 1.3;
+    }
+    .vaga-meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+    }
+    .vaga-card-bottom {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-top: 16px;
+      border-top: 1px solid var(--line-soft);
+      font-size: 13px;
+    }
+    .vaga-salary {
+      font-weight: 600;
+      color: var(--ink);
+    }
+    .vaga-salary span { color: var(--muted); font-weight: 400; }
+    .vaga-apply {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      color: var(--brand);
+      font-weight: 500;
+    }
+    .vaga-apply::after {
+      content: '→';
+      transition: transform 0.25s var(--ease);
+    }
+    .vaga-card:hover .vaga-apply::after {
+      transform: translateX(4px);
+    }
+    .vaga-empty {
+      grid-column: 1 / -1;
+      text-align: center;
+      padding: 80px 24px;
+      background: var(--surface);
+      border: 1px dashed var(--line);
+      border-radius: var(--r-lg);
+    }
+    .vaga-empty h3 { margin-bottom: 12px; font-family: var(--font-sans); font-size: 20px; }
+    .vaga-empty p { color: var(--muted); margin-bottom: 24px; }
+
+    /* ==========================================================
+       TESTIMONIALS
+       ========================================================== */
+    .testi-header {
+      text-align: center;
+      max-width: 700px;
+      margin: 0 auto 64px;
+    }
+    .testi-header h2 {
+      font-size: clamp(36px, 4.5vw, 56px);
+    }
+    .testi-header h2 em { font-style: italic; color: var(--brand); }
+    .testi-header p {
+      font-size: 17px;
+      color: var(--muted);
+      margin-top: 16px;
+    }
+
+    .testi-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 24px;
+    }
+    @media (max-width: 900px) {
+      .testi-grid { grid-template-columns: 1fr; max-width: 560px; margin: 0 auto; }
+    }
+    .testi-card {
+      background: var(--surface);
+      border: 1px solid var(--line);
+      border-radius: var(--r-lg);
+      padding: 32px;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      transition: all 0.3s var(--ease);
+    }
+    .testi-card:hover {
+      transform: translateY(-4px);
+      box-shadow: var(--sh-md);
+    }
+    .testi-card .stars {
+      gap: 3px;
+      font-size: 14px;
+    }
+    .testi-quote {
+      font-family: var(--font-display);
+      font-size: 19px;
+      line-height: 1.4;
+      letter-spacing: -0.01em;
+      color: var(--ink);
+      flex: 1;
+    }
+    .testi-author {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      padding-top: 20px;
+      border-top: 1px solid var(--line-soft);
+    }
+    .testi-avatar {
+      width: 44px; height: 44px;
+      border-radius: 50%;
+      display: grid; place-items: center;
+      font-weight: 600;
+      color: white;
+      font-size: 15px;
+    }
+    .testi-info {
+      display: flex;
+      flex-direction: column;
+      line-height: 1.3;
+    }
+    .testi-info strong {
+      font-weight: 600;
+      font-size: 14px;
+    }
+    .testi-info span {
+      font-size: 12px;
+      color: var(--muted);
+    }
+    .testi-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 11px;
+      font-weight: 500;
+      color: var(--accent);
+      background: var(--accent-soft);
+      padding: 4px 10px;
+      border-radius: var(--r-pill);
+      align-self: flex-start;
+      letter-spacing: 0.02em;
+    }
+
+    /* ==========================================================
+       PARTNERS DETAILED
+       ========================================================== */
+    .partners {
+      background: var(--ink);
+      color: var(--bg);
+      padding: 96px 0;
+      position: relative;
+      overflow: hidden;
+    }
+    .partners::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(ellipse 70% 50% at 50% 100%, rgba(232, 93, 47, 0.10), transparent 70%);
+    }
+    .partners-inner { position: relative; }
+    .partners-grid {
+      display: grid;
+      grid-template-columns: 1fr 1.4fr;
+      gap: 80px;
+      align-items: center;
+    }
+    @media (max-width: 900px) {
+      .partners-grid { grid-template-columns: 1fr; gap: 48px; }
+    }
+    .partners-text .eyebrow { color: var(--brand); }
+    .partners-text h2 {
+      font-size: clamp(36px, 4vw, 52px);
+      color: var(--bg);
+      margin: 16px 0 20px;
+    }
+    .partners-text h2 em { font-style: italic; color: var(--gold); }
+    .partners-text p {
+      color: rgba(250, 248, 243, 0.72);
+      font-size: 17px;
+      line-height: 1.6;
+      margin-bottom: 24px;
+    }
+    .partners-list {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+    }
+    .partner-item {
+      background: rgba(255, 255, 255, 0.04);
+      border: 1px solid rgba(255, 255, 255, 0.10);
+      border-radius: var(--r-lg);
+      padding: 24px;
+      transition: all 0.3s var(--ease);
+    }
+    .partner-item:hover {
+      background: rgba(255, 255, 255, 0.08);
+      border-color: var(--brand);
+      transform: translateY(-2px);
+    }
+    .partner-item h4 {
+      font-family: var(--font-sans);
+      font-size: 17px;
+      font-weight: 600;
+      letter-spacing: -0.01em;
+      color: var(--bg);
+      margin-bottom: 6px;
+    }
+    .partner-item p {
+      font-size: 13px;
+      color: rgba(250, 248, 243, 0.6);
+      line-height: 1.5;
+      margin-bottom: 0;
+    }
+
+    /* ==========================================================
+       BANCO DE TALENTOS CTA
+       ========================================================== */
+    .talents-cta {
+      background: linear-gradient(135deg, var(--brand) 0%, #D04E22 100%);
+      color: white;
+      border-radius: var(--r-xl);
+      padding: 80px 64px;
+      position: relative;
+      overflow: hidden;
+      margin: 96px auto;
+      max-width: var(--container-narrow);
+      text-align: center;
+    }
+    @media (max-width: 720px) {
+      .talents-cta { padding: 56px 32px; margin: 64px 16px; border-radius: var(--r-lg); }
+    }
+    .talents-cta::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(ellipse 60% 50% at 50% 0%, rgba(255, 255, 255, 0.15), transparent 70%);
+      pointer-events: none;
+    }
+    .talents-cta-inner { position: relative; max-width: 640px; margin: 0 auto; }
+    .talents-cta .eyebrow { color: white; opacity: 0.9; }
+    .talents-cta .eyebrow::before { background: white; }
+    .talents-cta h2 {
+      font-size: clamp(36px, 5vw, 56px);
+      color: white;
+      margin: 16px 0 20px;
+    }
+    .talents-cta h2 em { font-style: italic; }
+    .talents-cta p {
+      font-size: 18px;
+      color: rgba(255, 255, 255, 0.9);
+      margin-bottom: 32px;
+      line-height: 1.5;
+    }
+    .talents-cta .btn-primary {
+      background: white;
+      color: var(--ink);
+    }
+    .talents-cta .btn-primary:hover {
+      background: var(--ink);
+      color: white;
+    }
+
+    /* ==========================================================
+       FOUNDER / ABOUT
+       ========================================================== */
+    .founder-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 80px;
+      align-items: center;
+    }
+    @media (max-width: 900px) {
+      .founder-grid { grid-template-columns: 1fr; gap: 48px; }
+    }
+    .founder-image {
+      position: relative;
+      aspect-ratio: 4 / 5;
+      border-radius: var(--r-lg);
+      overflow: hidden;
+      background: var(--bg-warm);
+    }
+    .founder-image img {
+      width: 100%; height: 100%;
+      object-fit: cover;
+    }
+    .founder-image-frame {
+      position: absolute;
+      inset: 12px;
+      border: 1px solid rgba(255, 255, 255, 0.4);
+      border-radius: var(--r-md);
+      pointer-events: none;
+    }
+    .founder-image-tag {
+      position: absolute;
+      bottom: 24px; left: 24px;
+      background: var(--ink);
+      color: var(--bg);
+      padding: 12px 18px;
+      border-radius: var(--r-md);
+      font-size: 13px;
+      letter-spacing: 0.02em;
+    }
+    .founder-image-tag strong { display: block; font-size: 11px; letter-spacing: 0.16em; text-transform: uppercase; color: var(--brand); margin-bottom: 4px; }
+    .founder-text h2 {
+      font-size: clamp(36px, 4.5vw, 56px);
+    }
+    .founder-text h2 em { font-style: italic; color: var(--brand); }
+    .founder-text p {
+      color: var(--muted);
+      font-size: 17px;
+      line-height: 1.65;
+      margin: 20px 0;
+    }
+    .founder-quote {
+      font-family: var(--font-display);
+      font-style: italic;
+      font-size: 22px;
+      line-height: 1.45;
+      color: var(--ink);
+      border-left: 2px solid var(--brand);
+      padding-left: 20px;
+      margin: 24px 0;
+    }
+
+    /* ==========================================================
+       FAQ
+       ========================================================== */
+    .faq-section {
+      background: var(--bg-warm);
+    }
+    .faq-grid {
+      display: grid;
+      grid-template-columns: 1fr 1.5fr;
+      gap: 80px;
+      align-items: start;
+    }
+    @media (max-width: 900px) {
+      .faq-grid { grid-template-columns: 1fr; gap: 40px; }
+    }
+    .faq-side h2 { font-size: clamp(32px, 4vw, 48px); }
+    .faq-side h2 em { font-style: italic; color: var(--brand); }
+    .faq-side p {
+      color: var(--muted);
+      margin: 16px 0 28px;
+      font-size: 16px;
+    }
+    .faq-list { display: flex; flex-direction: column; gap: 12px; }
+    .faq-item {
+      background: var(--surface);
+      border: 1px solid var(--line);
+      border-radius: var(--r-md);
+      overflow: hidden;
+      transition: border-color 0.2s;
+    }
+    .faq-item:hover { border-color: var(--ink); }
+    .faq-item summary {
+      list-style: none;
+      cursor: pointer;
+      padding: 22px 24px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 16px;
+      font-weight: 500;
+      font-size: 16px;
+      letter-spacing: -0.01em;
+    }
+    .faq-item summary::-webkit-details-marker { display: none; }
+    .faq-item summary::after {
+      content: '+';
+      font-family: var(--font-display);
+      font-size: 24px;
+      color: var(--brand);
+      transition: transform 0.3s var(--ease);
+      line-height: 1;
+    }
+    .faq-item[open] summary::after { content: '−'; }
+    .faq-item-content {
+      padding: 0 24px 24px;
+      color: var(--muted);
+      font-size: 15px;
+      line-height: 1.6;
+    }
+    .faq-item-content strong { color: var(--ink); font-weight: 600; }
+
+    /* ==========================================================
+       FOOTER
+       ========================================================== */
+    .footer {
+      background: var(--ink);
+      color: var(--bg);
+      padding: 80px 0 32px;
+    }
+    .footer-grid {
+      display: grid;
+      grid-template-columns: 1.5fr 1fr 1fr 1fr;
+      gap: 48px;
+      margin-bottom: 56px;
+    }
+    @media (max-width: 800px) {
+      .footer-grid { grid-template-columns: 1fr 1fr; gap: 40px 24px; }
+      .footer-brand { grid-column: 1 / -1; }
+    }
+    @media (max-width: 480px) {
+      .footer-grid { grid-template-columns: 1fr; }
+    }
+    .footer-brand p {
+      font-size: 14px;
+      color: rgba(250, 248, 243, 0.65);
+      margin-top: 16px;
+      max-width: 320px;
+      line-height: 1.6;
+    }
+    .footer-social {
+      display: flex;
+      gap: 12px;
+      margin-top: 24px;
+    }
+    .footer-social a {
+      width: 40px; height: 40px;
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      border-radius: 50%;
+      display: grid; place-items: center;
+      transition: all 0.2s;
+    }
+    .footer-social a:hover {
+      background: var(--brand);
+      border-color: var(--brand);
+    }
+    .footer h4 {
+      font-family: var(--font-sans);
+      font-size: 12px;
+      font-weight: 500;
+      text-transform: uppercase;
+      letter-spacing: 0.14em;
+      color: var(--bg);
+      margin-bottom: 20px;
+      opacity: 0.6;
+    }
+    .footer-links { display: flex; flex-direction: column; gap: 12px; }
+    .footer-links a {
+      font-size: 14px;
+      color: rgba(250, 248, 243, 0.8);
+      transition: color 0.2s;
+    }
+    .footer-links a:hover { color: var(--brand); }
+    .footer-bottom {
+      padding-top: 32px;
+      border-top: 1px solid rgba(255, 255, 255, 0.10);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 16px;
+      flex-wrap: wrap;
+      font-size: 13px;
+      color: rgba(250, 248, 243, 0.55);
+    }
+    .footer-bottom a { color: rgba(250, 248, 243, 0.8); }
+    .footer-bottom a:hover { color: var(--brand); }
+
+    /* ==========================================================
+       WHATSAPP FLOATING
+       ========================================================== */
+    .wa-float {
+      position: fixed;
+      bottom: 24px; right: 24px;
+      z-index: 30;
+      display: flex;
+      align-items: center;
+      gap: 0;
+      background: #25D366;
+      color: white;
+      border-radius: var(--r-pill);
+      padding: 14px 18px 14px 14px;
+      box-shadow: 0 12px 32px rgba(37, 211, 102, 0.4);
+      transition: all 0.3s var(--ease);
+      font-weight: 500;
+      font-size: 14px;
+      transform: translateY(80px);
+      opacity: 0;
+    }
+    .wa-float.visible {
+      transform: translateY(0);
+      opacity: 1;
+    }
+    .wa-float:hover {
+      background: #1ea952;
+      transform: translateY(-2px);
+      box-shadow: 0 16px 40px rgba(37, 211, 102, 0.5);
+    }
+    .wa-float svg { width: 24px; height: 24px; }
+    .wa-float span { margin-left: 8px; }
+    @media (max-width: 480px) {
+      .wa-float span { display: none; }
+      .wa-float { padding: 14px; bottom: 20px; right: 20px; }
+    }
+
+    /* ==========================================================
+       MODALS
+       ========================================================== */
+    .modal-backdrop {
+      position: fixed;
+      inset: 0;
+      background: rgba(15, 27, 20, 0.5);
+      backdrop-filter: blur(6px);
+      -webkit-backdrop-filter: blur(6px);
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.3s var(--ease);
+      z-index: 100;
+      display: grid;
+      place-items: center;
+      padding: 24px;
+      overflow-y: auto;
+    }
+    .modal-backdrop.open {
+      opacity: 1;
+      pointer-events: auto;
+    }
+    .modal {
+      background: var(--bg);
+      border-radius: var(--r-lg);
+      max-width: 720px;
+      width: 100%;
+      max-height: calc(100vh - 48px);
+      overflow-y: auto;
+      transform: translateY(20px) scale(0.98);
+      transition: transform 0.4s var(--ease-out);
+      box-shadow: var(--sh-xl);
+      position: relative;
+    }
+    .modal-backdrop.open .modal {
+      transform: translateY(0) scale(1);
+    }
+    .modal-header {
+      position: sticky;
+      top: 0;
+      background: var(--bg);
+      padding: 24px 32px;
+      border-bottom: 1px solid var(--line);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 16px;
+      z-index: 5;
+    }
+    .modal-header h2 {
+      font-family: var(--font-display);
+      font-size: 24px;
+      letter-spacing: -0.02em;
+    }
+    .modal-header h2 em { font-style: italic; color: var(--brand); }
+    .modal-close {
+      width: 36px; height: 36px;
+      border-radius: 50%;
+      display: grid; place-items: center;
+      transition: background 0.2s;
+      color: var(--muted);
+    }
+    .modal-close:hover { background: var(--bg-warm); color: var(--ink); }
+    .modal-body { padding: 32px; }
+    @media (max-width: 600px) {
+      .modal-header { padding: 20px 24px; }
+      .modal-body { padding: 24px; }
+    }
+
+    /* Form */
+    .form-section {
+      margin-bottom: 32px;
+    }
+    .form-section h3 {
+      font-family: var(--font-sans);
+      font-size: 12px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.14em;
+      color: var(--brand);
+      margin-bottom: 16px;
+      padding-bottom: 8px;
+      border-bottom: 1px solid var(--line);
+    }
+    .form-row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+      margin-bottom: 16px;
+    }
+    .form-row.cols-3 { grid-template-columns: 1fr 1fr 1fr; }
+    .form-row.cols-1 { grid-template-columns: 1fr; }
+    @media (max-width: 600px) {
+      .form-row, .form-row.cols-3 { grid-template-columns: 1fr; }
+    }
+    .form-field {
+      display: flex;
+      flex-direction: column;
+    }
+    .form-field label {
+      font-size: 13px;
+      font-weight: 500;
+      margin-bottom: 6px;
+      color: var(--ink-soft);
+    }
+    .form-field label .req { color: var(--brand); margin-left: 2px; }
+    .form-field input,
+    .form-field select,
+    .form-field textarea {
+      width: 100%;
+      padding: 12px 14px;
+      background: var(--surface);
+      border: 1px solid var(--line);
+      border-radius: var(--r-md);
+      font-size: 15px;
+      color: var(--ink);
+      transition: all 0.2s;
+    }
+    .form-field input:focus,
+    .form-field select:focus,
+    .form-field textarea:focus {
+      outline: none;
+      border-color: var(--ink);
+      box-shadow: 0 0 0 3px rgba(15, 27, 20, 0.08);
+    }
+    .form-field input.error,
+    .form-field select.error,
+    .form-field textarea.error {
+      border-color: var(--error);
+      box-shadow: 0 0 0 3px rgba(178, 58, 58, 0.08);
+    }
+    .form-field .error-msg {
+      font-size: 12px;
+      color: var(--error);
+      margin-top: 6px;
+      display: none;
+    }
+    .form-field.has-error .error-msg { display: block; }
+
+    .file-upload {
+      border: 1.5px dashed var(--line);
+      border-radius: var(--r-md);
+      padding: 24px;
+      text-align: center;
+      cursor: pointer;
+      transition: all 0.2s;
+      background: var(--surface);
+    }
+    .file-upload:hover {
+      border-color: var(--ink);
+      background: var(--bg-warm);
+    }
+    .file-upload.drag-over {
+      border-color: var(--brand);
+      background: var(--brand-soft);
+    }
+    .file-upload p { font-size: 14px; color: var(--ink-soft); margin: 8px 0 4px; }
+    .file-upload small { font-size: 12px; color: var(--muted); }
+    .file-upload input { display: none; }
+    .file-name {
+      display: none;
+      margin-top: 12px;
+      padding: 10px 14px;
+      background: var(--accent-soft);
+      color: var(--accent);
+      border-radius: var(--r-md);
+      font-size: 13px;
+      font-weight: 500;
+    }
+    .file-name.visible { display: block; }
+
+    .lgpd-box {
+      background: var(--bg-warm);
+      border-radius: var(--r-md);
+      padding: 20px;
+      margin: 24px 0;
+      font-size: 13px;
+      color: var(--ink-soft);
+      line-height: 1.55;
+    }
+    .lgpd-box strong { display: block; margin-bottom: 8px; color: var(--ink); font-size: 14px; }
+    .lgpd-box a { color: var(--brand); text-decoration: underline; text-underline-offset: 2px; }
+
+    .checkbox-field {
+      display: flex;
+      align-items: flex-start;
+      gap: 10px;
+      cursor: pointer;
+      font-size: 14px;
+      color: var(--ink-soft);
+      line-height: 1.5;
+    }
+    .checkbox-field input { margin-top: 2px; accent-color: var(--brand); width: 18px; height: 18px; flex-shrink: 0; }
+
+    /* Progress steps */
+    .form-progress {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 24px;
+    }
+    .form-progress-step {
+      flex: 1;
+      height: 4px;
+      background: var(--line);
+      border-radius: var(--r-pill);
+      transition: background 0.3s;
+    }
+    .form-progress-step.active { background: var(--brand); }
+
+    /* Success state */
+    .success-state {
+      text-align: center;
+      padding: 32px;
+    }
+    .success-icon {
+      width: 80px; height: 80px;
+      border-radius: 50%;
+      background: var(--accent-soft);
+      color: var(--accent);
+      display: grid; place-items: center;
+      margin: 0 auto 24px;
+      animation: success-bounce 0.6s var(--ease-out);
+    }
+    @keyframes success-bounce {
+      0% { transform: scale(0); }
+      60% { transform: scale(1.15); }
+      100% { transform: scale(1); }
+    }
+    .success-state h2 {
+      font-size: 32px;
+      margin-bottom: 12px;
+    }
+    .success-state h2 em { font-style: italic; color: var(--brand); }
+    .success-state p {
+      color: var(--muted);
+      max-width: 440px;
+      margin: 0 auto 24px;
+      line-height: 1.6;
+    }
+    .next-steps {
+      background: var(--bg-warm);
+      border-radius: var(--r-md);
+      padding: 24px;
+      text-align: left;
+      max-width: 480px;
+      margin: 24px auto;
+    }
+    .next-steps h4 {
+      font-family: var(--font-sans);
+      font-size: 13px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: var(--brand);
+      margin-bottom: 16px;
+    }
+    .next-steps ol {
+      list-style: none;
+      counter-reset: step;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+    .next-steps ol li {
+      counter-increment: step;
+      display: flex;
+      gap: 12px;
+      align-items: flex-start;
+      font-size: 14px;
+      color: var(--ink-soft);
+      line-height: 1.5;
+    }
+    .next-steps ol li::before {
+      content: counter(step);
+      width: 24px; height: 24px;
+      border-radius: 50%;
+      background: var(--ink);
+      color: var(--bg);
+      display: grid; place-items: center;
+      font-size: 12px;
+      font-weight: 600;
+      flex-shrink: 0;
+      font-family: var(--font-display);
+    }
+    .next-steps ol li strong { color: var(--ink); display: block; font-weight: 600; margin-bottom: 2px; font-size: 14px; }
+
+    /* Toast */
+    .toast {
+      position: fixed;
+      top: 24px;
+      left: 50%;
+      transform: translateX(-50%) translateY(-120%);
+      background: var(--ink);
+      color: var(--bg);
+      padding: 14px 20px;
+      border-radius: var(--r-pill);
+      font-size: 14px;
+      font-weight: 500;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      box-shadow: var(--sh-lg);
+      z-index: 200;
+      transition: transform 0.4s var(--ease-out);
+      max-width: calc(100vw - 48px);
+    }
+    .toast.visible { transform: translateX(-50%) translateY(0); }
+    .toast.success { background: var(--accent); }
+    .toast.error { background: var(--error); }
+
+    /* Loading spinner */
+    .spinner {
+      width: 16px; height: 16px;
+      border: 2px solid currentColor;
+      border-top-color: transparent;
+      border-radius: 50%;
+      animation: spin 0.6s linear infinite;
+    }
+    @keyframes spin {
+      to { transform: rotate(360deg); }
+    }
+
+    /* Reveal animation */
+    .reveal {
+      opacity: 0;
+      transform: translateY(24px);
+      transition: opacity 0.7s var(--ease-out), transform 0.7s var(--ease-out);
+    }
+    .reveal.in {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after {
+        animation-duration: 0.01ms !important;
+        transition-duration: 0.01ms !important;
+      }
+      .reveal { opacity: 1; transform: none; }
+    }
+
+    /* Privacy modal content */
+    .privacy-content { font-size: 14px; line-height: 1.65; color: var(--ink-soft); }
+    .privacy-content h3 { font-family: var(--font-sans); font-size: 16px; font-weight: 600; margin: 24px 0 8px; color: var(--ink); }
+    .privacy-content h3:first-child { margin-top: 0; }
+    .privacy-content p { margin-bottom: 12px; }
+    .privacy-content ul { padding-left: 20px; margin-bottom: 12px; }
+    .privacy-content li { margin-bottom: 6px; }
+    .privacy-content a { color: var(--brand); text-decoration: underline; }
+    .privacy-content strong { color: var(--ink); font-weight: 600; }
+    .privacy-meta { padding-top: 20px; margin-top: 24px; border-top: 1px solid var(--line); font-size: 12px; color: var(--muted); }
+  </style>
+</head>
+<body>
+
+<!-- ============== TOAST ============== -->
+<div id="toast" class="toast" role="status" aria-live="polite">
+  <span id="toast-icon">✓</span>
+  <span id="toast-msg">Mensagem</span>
+</div>
+
+<!-- ============== WHATSAPP FLOATING ============== -->
+<a id="wa-float" class="wa-float" href="https://wa.me/5566999999999?text=Ol%C3%A1!%20Vim%20do%20site%20da%20Help%20Recrutamento%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es." target="_blank" rel="noopener" aria-label="Falar no WhatsApp">
+  <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.6 6.32A7.85 7.85 0 0 0 12.05 4a7.94 7.94 0 0 0-6.88 11.92L4 20l4.2-1.1a7.93 7.93 0 0 0 3.85.98h.01a7.94 7.94 0 0 0 5.54-13.56zM12.06 18.5h-.01a6.6 6.6 0 0 1-3.36-.92l-.24-.14-2.5.65.67-2.43-.16-.25a6.6 6.6 0 1 1 12.25-3.5 6.6 6.6 0 0 1-6.65 6.59zm3.62-4.94c-.2-.1-1.18-.58-1.36-.65-.18-.07-.32-.1-.45.1s-.51.65-.63.78c-.12.14-.23.15-.43.05-.2-.1-.84-.31-1.6-.99-.59-.52-.99-1.17-1.1-1.37-.12-.2-.01-.3.09-.4.09-.09.2-.23.3-.35.1-.12.13-.2.2-.34.07-.13.03-.25-.02-.35-.05-.1-.45-1.08-.61-1.48-.16-.39-.33-.34-.45-.34-.12 0-.25-.02-.39-.02s-.34.05-.52.25c-.18.2-.7.69-.7 1.67 0 .98.71 1.93.81 2.06.1.13 1.4 2.13 3.39 2.99.47.2.84.32 1.13.41.47.15.9.13 1.24.08.38-.06 1.18-.48 1.34-.95.17-.47.17-.86.12-.95-.05-.09-.18-.14-.38-.24z"/></svg>
+  <span>Fale no WhatsApp</span>
+</a>
+
+<!-- ============== NAV ============== -->
+<header id="nav" class="nav">
+  <div class="container nav-inner">
+    <a href="#" class="logo" aria-label="Help Recrutamento">
+      <span class="logo-mark italic">h</span>
+      <span class="logo-text">
+        <strong>Help</strong>
+        <span>Recrutamento</span>
+      </span>
+    </a>
+
+    <nav class="nav-links" aria-label="Navegação principal">
+      <a href="#vagas">Vagas</a>
+      <a href="#como-funciona">Como funciona</a>
+      <a href="#depoimentos">Histórias</a>
+      <a href="#sobre">Sobre</a>
+      <a href="#faq">Dúvidas</a>
+    </nav>
+
+    <div class="nav-cta">
+      <a href="#vagas" class="btn btn-ghost btn-sm">Ver vagas</a>
+      <button onclick="openModal('modal-talents')" class="btn btn-primary btn-sm">
+        Cadastrar currículo <span class="arrow">→</span>
+      </button>
+      <button class="nav-toggle" aria-label="Menu" onclick="toggleMobileMenu()">
+        <svg width="20" height="14" viewBox="0 0 20 14" fill="none"><path d="M1 1h18M1 7h18M1 13h18" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- Mobile menu -->
+<div id="mobile-menu" class="mobile-menu">
+  <a href="#vagas" onclick="toggleMobileMenu()">Vagas abertas</a>
+  <a href="#como-funciona" onclick="toggleMobileMenu()">Como funciona</a>
+  <a href="#depoimentos" onclick="toggleMobileMenu()">Histórias de sucesso</a>
+  <a href="#sobre" onclick="toggleMobileMenu()">Sobre nós</a>
+  <a href="#faq" onclick="toggleMobileMenu()">Perguntas frequentes</a>
+  <button onclick="toggleMobileMenu(); openModal('modal-talents')" class="btn btn-brand">
+    Cadastrar currículo <span class="arrow">→</span>
+  </button>
+</div>
+
+<!-- ============== HERO ============== -->
+<section class="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-grain"></div>
+  <div class="container hero-grid">
+    <div class="hero-text reveal">
+      <span class="hero-badge">
+        <span class="dot"></span>
+        <strong id="hero-vagas-count">8</strong>&nbsp;vagas abertas hoje em Mato Grosso
+      </span>
+
+      <h1>
+        Sua próxima<br>
+        <em>oportunidade</em><br>
+        começa aqui.
+      </h1>
+
+      <p class="lead">
+        Conectamos talentos do Centro-Oeste às melhores empresas do Brasil. Processos ágeis, atendimento humano e parcerias com líderes como Rumo, Vidal, GLT e Hyundai.
+      </p>
+
+      <div class="hero-actions">
+        <a href="#vagas" class="btn btn-brand btn-lg">
+          Ver vagas abertas <span class="arrow">→</span>
+        </a>
+        <button onclick="openModal('modal-talents')" class="btn btn-ghost btn-lg">
+          Cadastrar currículo
+        </button>
+      </div>
+
+      <div class="hero-trust">
+        <div class="avatars" aria-hidden="true">
+          <span>JS</span><span>AR</span><span>MC</span><span>+</span>
+        </div>
+        <div>
+          <div class="stars" aria-hidden="true">★★★★★</div>
+          <div><strong style="color:var(--ink); font-weight:600;">+200 candidatos</strong> já cadastrados</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-card reveal" style="transition-delay: 0.15s;">
+      <div class="floating-card">
+        <div class="job-mini">
+          <div class="job-mini-header">
+            <div class="job-mini-company">
+              <span class="company-mark">RL</span>
+              <span>Rumo Logística</span>
+            </div>
+            <span class="pill pill-success">● Ativa</span>
+          </div>
+          <h3>Operador de Pátio Ferroviário</h3>
+          <div class="job-mini-meta">
+            <span class="pill pill-soft">Rondonópolis, MT</span>
+            <span class="pill pill-soft">CLT</span>
+          </div>
+          <div class="job-mini-progress">
+            <div class="job-mini-progress-row">
+              <span>Match com seu perfil</span>
+              <span><strong style="color:var(--brand);">92%</strong></span>
+            </div>
+            <div class="progress-bar"><div class="progress-fill" style="width:92%"></div></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="floating-card floating-card-2">
+        <div class="job-mini">
+          <div class="job-mini-header">
+            <div class="job-mini-company">
+              <span class="company-mark" style="background:var(--brand); color:white;">VT</span>
+              <span>Vidal Transportes</span>
+            </div>
+            <span class="pill pill-brand">Nova</span>
+          </div>
+          <h3 style="font-size:16px;">Auxiliar Administrativo</h3>
+          <div class="job-mini-meta">
+            <span class="pill pill-soft">Campo Verde</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============== TRUST BAR ============== -->
+<section class="trust-bar">
+  <div class="container">
+    <div class="trust-bar-label">Empresas que confiam na Help Recrutamento</div>
+    <div class="trust-logos">
+      <div class="trust-logo">RUMO<small>Logística</small></div>
+      <div class="trust-logo">VIDAL<small>Transportes</small></div>
+      <div class="trust-logo">GLT<small>Transportes</small></div>
+      <div class="trust-logo">HYUNDAI<small>Pesados</small></div>
+      <div class="trust-logo">+12<small>Parceiras</small></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============== STATS ============== -->
+<section class="stats">
+  <div class="container stats-inner">
+    <div class="stats-header reveal">
+      <span class="eyebrow">Resultados que importam</span>
+      <h2>Números que <em>falam</em><br>por nós.</h2>
+    </div>
+
+    <div class="stats-grid">
+      <div class="stat reveal">
+        <div class="stat-num"><em>+200</em></div>
+        <div class="stat-label">Candidatos cadastrados<br>no banco de talentos</div>
+      </div>
+      <div class="stat reveal" style="transition-delay:0.1s">
+        <div class="stat-num"><em>87</em></div>
+        <div class="stat-label">Profissionais contratados<br>via Help Recrutamento</div>
+      </div>
+      <div class="stat reveal" style="transition-delay:0.2s">
+        <div class="stat-num"><em>15</em></div>
+        <div class="stat-label">Dias úteis em média<br>para fechar uma vaga</div>
+      </div>
+      <div class="stat reveal" style="transition-delay:0.3s">
+        <div class="stat-num"><em>4</em></div>
+        <div class="stat-label">Cidades atendidas<br>em Mato Grosso</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============== HOW IT WORKS ============== -->
+<section class="section" id="como-funciona">
+  <div class="container">
+    <div class="how-header">
+      <div class="reveal">
+        <span class="eyebrow">Processo simples</span>
+        <h2 style="margin-top:16px;">Como funciona<br>do <em>cadastro</em> à contratação.</h2>
+      </div>
+      <p class="reveal" style="transition-delay:0.1s">Sem mistério. Quatro etapas claras, com você acompanhando cada uma delas via WhatsApp.</p>
+    </div>
+
+    <div class="steps">
+      <div class="step reveal">
+        <div class="step-num">01 — CADASTRO</div>
+        <div class="step-icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="9" y1="13" x2="15" y2="13"/><line x1="9" y1="17" x2="15" y2="17"/></svg>
+        </div>
+        <h3>Você cadastra seu currículo</h3>
+        <p>Preenchimento em 3 minutos. Dados protegidos pela LGPD. 100% gratuito, sempre.</p>
+      </div>
+
+      <div class="step reveal" style="transition-delay:0.1s">
+        <div class="step-num">02 — TRIAGEM</div>
+        <div class="step-icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+        </div>
+        <h3>Nossa equipe analisa seu perfil</h3>
+        <p>Equipe humana revisa seu cadastro em até 48h e cruza com vagas compatíveis na região.</p>
+      </div>
+
+      <div class="step reveal" style="transition-delay:0.2s">
+        <div class="step-num">03 — ENTREVISTA</div>
+        <div class="step-icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+        </div>
+        <h3>Te chamamos para conversar</h3>
+        <p>Contato via WhatsApp com horário e detalhes. Entrevista presencial ou online, conforme sua disponibilidade.</p>
+      </div>
+
+      <div class="step reveal" style="transition-delay:0.3s">
+        <div class="step-num">04 — CONTRATAÇÃO</div>
+        <div class="step-icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+        </div>
+        <h3>Você assina com a empresa</h3>
+        <p>Encaminhamos para a empresa parceira. Da entrevista à contratação em 15 dias, em média.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============== VAGAS ============== -->
+<section class="section vagas-section" id="vagas">
+  <div class="container">
+    <div class="vagas-header reveal">
+      <div>
+        <span class="eyebrow">Oportunidades</span>
+        <h2 style="margin-top:16px;">Vagas <em>abertas</em><br>agora.</h2>
+      </div>
+      <div class="vagas-count">Atualizado em tempo real · <strong id="vagas-count">8 vagas</strong></div>
+    </div>
+
+    <div class="filters reveal">
+      <div class="filter-group">
+        <label for="filter-categoria">Categoria</label>
+        <select id="filter-categoria" onchange="filterVagas()">
+          <option value="">Todas as áreas</option>
+          <option>Logística</option>
+          <option>Operacional</option>
+          <option>Administrativo</option>
+          <option>RH</option>
+          <option>Manutenção</option>
+          <option>Segurança</option>
+        </select>
+      </div>
+      <div class="filter-group">
+        <label for="filter-cidade">Cidade</label>
+        <select id="filter-cidade" onchange="filterVagas()">
+          <option value="">Todas as cidades</option>
+          <option>Rondonópolis, MT</option>
+          <option>Cuiabá, MT</option>
+          <option>Campo Verde, MT</option>
+          <option>Alto Garças, MT</option>
+        </select>
+      </div>
+      <div class="filter-group">
+        <label for="filter-tipo">Tipo de contrato</label>
+        <select id="filter-tipo" onchange="filterVagas()">
+          <option value="">Todos</option>
+          <option>CLT</option>
+          <option>PJ</option>
+          <option>Temporário</option>
+          <option>Estágio</option>
+        </select>
+      </div>
+      <button class="filters-clear" onclick="clearFilters()" type="button">Limpar</button>
+    </div>
+
+    <div id="vagas-grid" class="vagas-grid">
+      <!-- Cards renderizados via JS -->
+    </div>
+  </div>
+</section>
+
+<!-- ============== TESTIMONIALS ============== -->
+<section class="section" id="depoimentos">
+  <div class="container">
+    <div class="testi-header reveal">
+      <span class="eyebrow">Histórias reais</span>
+      <h2 style="margin-top:16px;">Quem passou por aqui<br><em>recomenda</em>.</h2>
+      <p>Depoimentos de profissionais que encontraram sua próxima oportunidade através da Help Recrutamento.</p>
+    </div>
+
+    <div class="testi-grid">
+      <div class="testi-card reveal">
+        <div class="stars" aria-label="5 de 5 estrelas">★★★★★</div>
+        <span class="testi-badge">✓ Contratado em 12 dias</span>
+        <p class="testi-quote">"Achei que ia demorar meses. Cadastrei o currículo numa terça e na semana seguinte já estava em entrevista na Rumo. Atendimento humano de verdade — me ligaram pra explicar tudo."</p>
+        <div class="testi-author">
+          <div class="testi-avatar" style="background:linear-gradient(135deg,#2E5D4F,#6BAA75);">JS</div>
+          <div class="testi-info">
+            <strong>João S.</strong>
+            <span>Operador · Rondonópolis, MT</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="testi-card reveal" style="transition-delay:0.1s">
+        <div class="stars" aria-label="5 de 5 estrelas">★★★★★</div>
+        <span class="testi-badge">✓ Contratada em 9 dias</span>
+        <p class="testi-quote">"Tava desempregada há quase 6 meses. A equipe da Help me ajudou a ajustar o currículo e indicou pra uma vaga que combinava certinho com meu perfil. Hoje trabalho na Vidal e sou muito grata."</p>
+        <div class="testi-author">
+          <div class="testi-avatar" style="background:linear-gradient(135deg,#E85D2F,#F2A285);">AR</div>
+          <div class="testi-info">
+            <strong>Ana R.</strong>
+            <span>Aux. Administrativa · Campo Verde, MT</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="testi-card reveal" style="transition-delay:0.2s">
+        <div class="stars" aria-label="5 de 5 estrelas">★★★★★</div>
+        <span class="testi-badge">✓ Contratado em 18 dias</span>
+        <p class="testi-quote">"Diferente de site de vaga onde você manda currículo e nunca recebe resposta. Aqui tem gente do outro lado. Me deram retorno mesmo das vagas que não passei. Profissionalismo total."</p>
+        <div class="testi-author">
+          <div class="testi-avatar" style="background:linear-gradient(135deg,#C9A961,#E8C988);">MC</div>
+          <div class="testi-info">
+            <strong>Marcos C.</strong>
+            <span>Mecânico · Cuiabá, MT</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============== PARTNERS ============== -->
+<section class="partners">
+  <div class="container partners-inner">
+    <div class="partners-grid">
+      <div class="partners-text reveal">
+        <span class="eyebrow">Parcerias estratégicas</span>
+        <h2>Conectando você a quem <em>contrata.</em></h2>
+        <p>Trabalhamos diretamente com líderes de mercado em logística, transporte e indústria pesada no Centro-Oeste. Nosso processo é validado por essas empresas, o que significa que seu currículo chega direto a quem decide.</p>
+        <a href="#vagas" class="btn btn-brand">
+          Ver vagas dessas empresas <span class="arrow">→</span>
+        </a>
+      </div>
+
+      <div class="partners-list reveal" style="transition-delay:0.15s">
+        <div class="partner-item">
+          <h4>Rumo Logística</h4>
+          <p>Maior operadora ferroviária independente do Brasil. Vagas em pátios e operações.</p>
+        </div>
+        <div class="partner-item">
+          <h4>Vidal Transportes</h4>
+          <p>Líder regional em transporte rodoviário de cargas no Centro-Oeste.</p>
+        </div>
+        <div class="partner-item">
+          <h4>GLT Transportes</h4>
+          <p>Especializada em logística agrícola e operações no agronegócio.</p>
+        </div>
+        <div class="partner-item">
+          <h4>Hyundai</h4>
+          <p>Concessionária de veículos pesados — vagas técnicas e administrativas.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============== TALENTS CTA ============== -->
+<div class="container">
+  <div class="talents-cta reveal">
+    <div class="talents-cta-inner">
+      <span class="eyebrow">Banco de Talentos</span>
+      <h2>Não achou a vaga<br><em>ideal hoje?</em></h2>
+      <p>Cadastre seu currículo no nosso banco de talentos. Quando surgir a oportunidade certa pra você, somos os primeiros a chamar.</p>
+      <button onclick="openModal('modal-talents')" class="btn btn-primary btn-lg">
+        Entrar para o banco de talentos <span class="arrow">→</span>
+      </button>
+    </div>
+  </div>
+</div>
+
+<!-- ============== FOUNDER / SOBRE ============== -->
+<section class="section" id="sobre">
+  <div class="container">
+    <div class="founder-grid">
+      <div class="founder-image reveal">
+        <img src="fundadora.jpg" alt="Fundadora da Help Recrutamento" onerror="this.style.display='none'; this.parentElement.style.background='linear-gradient(135deg, #0F1B14 0%, #2E5D4F 100%)';" />
+        <div class="founder-image-frame"></div>
+        <div class="founder-image-tag">
+          <strong>Fundadora & CEO</strong>
+          Help Recrutamento
+        </div>
+      </div>
+
+      <div class="founder-text reveal" style="transition-delay:0.15s">
+        <span class="eyebrow">Quem somos</span>
+        <h2 style="margin-top:16px;">Recrutamento com <em>cuidado humano</em>.</h2>
+        <p>A Help Recrutamento nasceu para fazer diferente do que o mercado oferece: aproximar pessoas das melhores oportunidades em Mato Grosso com agilidade, ética e atenção real em cada etapa.</p>
+
+        <blockquote class="founder-quote">
+          "Cada candidato é uma história. Por isso atendemos um a um, sem terceirização e sem robô. É assim que conseguimos colocar o profissional certo na vaga certa."
+        </blockquote>
+
+        <p>Mais que um intermediário, somos uma extensão do RH dos nossos parceiros — Rumo Logística, Vidal Transportes, GLT, Hyundai e outros — garantindo que cada vaga preenchida seja um match verdadeiro.</p>
+
+        <div style="display:flex; gap:24px; margin-top:32px; flex-wrap:wrap;">
+          <a href="#vagas" class="btn btn-brand">Ver vagas <span class="arrow">→</span></a>
+          <a href="https://instagram.com/helprecrutamentos" target="_blank" rel="noopener" class="btn btn-link">@helprecrutamentos</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============== FAQ ============== -->
+<section class="section faq-section" id="faq">
+  <div class="container">
+    <div class="faq-grid">
+      <div class="faq-side reveal">
+        <span class="eyebrow">Tirando dúvidas</span>
+        <h2 style="margin-top:16px;">Perguntas <em>frequentes</em>.</h2>
+        <p>O que mais nos perguntam sobre o processo. Não achou sua dúvida? Fale com a gente no WhatsApp.</p>
+        <a href="https://wa.me/5566999999999" target="_blank" rel="noopener" class="btn btn-ghost">
+          Falar no WhatsApp <span class="arrow">→</span>
+        </a>
+      </div>
+
+      <div class="faq-list reveal" style="transition-delay:0.1s">
+        <details class="faq-item">
+          <summary>O que acontece depois que eu cadastro meu currículo?</summary>
+          <div class="faq-item-content">
+            <p>Em até <strong>48h úteis</strong>, nossa equipe analisa seu cadastro. Se houver vaga compatível com seu perfil agora, entramos em contato pelo <strong>WhatsApp</strong> com os detalhes da oportunidade. Caso contrário, seu currículo fica no banco de talentos e te chamamos quando surgir algo alinhado com sua experiência e localização.</p>
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary>Quem vai ver os meus dados?</summary>
+          <div class="faq-item-content">
+            <p>Apenas a equipe interna da Help Recrutamento, nos termos da <strong>LGPD (Lei 13.709/2018)</strong>. Compartilhamos seu currículo com empresas parceiras (Rumo, Vidal, GLT, Hyundai etc.) <strong>somente</strong> quando há vaga compatível e <strong>com seu consentimento prévio</strong>. Você pode pedir exclusão dos seus dados a qualquer momento por e-mail.</p>
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary>O serviço é cobrado do candidato?</summary>
+          <div class="faq-item-content">
+            <p><strong>Não. Nunca.</strong> O serviço é 100% gratuito para candidatos. Quem paga pelo nosso trabalho são as empresas parceiras que nos contratam para encontrar profissionais qualificados. Se alguém te cobrar dizendo ser da Help, é golpe — denuncie pra gente.</p>
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary>Em quanto tempo serei contratado?</summary>
+          <div class="faq-item-content">
+            <p>Nosso tempo médio é de <strong>15 dias úteis</strong> entre o primeiro contato e a contratação efetiva — quando o perfil bate com uma vaga aberta. Em alguns casos chega a 9 dias, em outros pode levar mais. Tudo depende de quantas vagas estão abertas no momento e da compatibilidade com seu perfil.</p>
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary>Preciso ter ensino superior?</summary>
+          <div class="faq-item-content">
+            <p>Depende da vaga. Trabalhamos com vagas que pedem desde <strong>ensino fundamental</strong> (operacional, logística) até <strong>pós-graduação</strong> (cargos administrativos e de liderança). Cadastre seu currículo independente da escolaridade — temos vaga pra muitos perfis.</p>
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary>Vocês atendem fora de Mato Grosso?</summary>
+          <div class="faq-item-content">
+            <p>Hoje, nosso foco é o <strong>Centro-Oeste</strong>, especialmente Rondonópolis, Cuiabá, Campo Verde e Alto Garças. Algumas parceiras nossas têm operações em outros estados — quando aparece vaga assim, postamos aqui no site. Fique de olho!</p>
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary>Como sei se sou o escolhido pra uma vaga?</summary>
+          <div class="faq-item-content">
+            <p>Damos retorno <strong>pra todo mundo</strong> — passou ou não passou. Esse é nosso compromisso. O contato é sempre por WhatsApp pelo número oficial da Help, com identificação clara da consultora responsável pelo seu processo.</p>
+          </div>
+        </details>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============== FOOTER ============== -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="#" class="logo" style="color:var(--bg);">
+          <span class="logo-mark italic">h</span>
+          <span class="logo-text">
+            <strong>Help</strong>
+            <span style="color:rgba(250,248,243,0.5);">Recrutamento</span>
+          </span>
+        </a>
+        <p>Especialistas em recrutamento e seleção. Conectamos talentos às melhores empresas do Centro-Oeste do Brasil.</p>
+        <div class="footer-social">
+          <a href="https://instagram.com/helprecrutamentos" target="_blank" rel="noopener" aria-label="Instagram">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+          </a>
+          <a href="https://wa.me/5566999999999" target="_blank" rel="noopener" aria-label="WhatsApp">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M17.6 6.32A7.85 7.85 0 0 0 12.05 4a7.94 7.94 0 0 0-6.88 11.92L4 20l4.2-1.1a7.93 7.93 0 0 0 3.85.98h.01a7.94 7.94 0 0 0 5.54-13.56zM12.06 18.5h-.01a6.6 6.6 0 0 1-3.36-.92l-.24-.14-2.5.65.67-2.43-.16-.25a6.6 6.6 0 1 1 12.25-3.5 6.6 6.6 0 0 1-6.65 6.59z"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <div>
+        <h4>Navegação</h4>
+        <div class="footer-links">
+          <a href="#vagas">Vagas abertas</a>
+          <a href="#como-funciona">Como funciona</a>
+          <a href="#depoimentos">Histórias</a>
+          <a href="#sobre">Sobre nós</a>
+          <a href="#faq">Dúvidas</a>
+        </div>
+      </div>
+
+      <div>
+        <h4>Para candidatos</h4>
+        <div class="footer-links">
+          <a href="#" onclick="event.preventDefault(); openModal('modal-talents');">Cadastrar currículo</a>
+          <a href="#vagas">Procurar vaga</a>
+          <a href="https://wa.me/5566999999999" target="_blank" rel="noopener">Falar no WhatsApp</a>
+        </div>
+      </div>
+
+      <div>
+        <h4>Legal</h4>
+        <div class="footer-links">
+          <a href="#" onclick="event.preventDefault(); openModal('modal-privacy');">Política de Privacidade</a>
+          <a href="#" onclick="event.preventDefault(); openModal('modal-privacy');">LGPD</a>
+          <a href="mailto:privacidade@helprecrutamento.com.br">Encarregado (DPO)</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div>© 2025 Help Recrutamento. Todos os direitos reservados.</div>
+      <div>Dados protegidos pela <a href="#" onclick="event.preventDefault(); openModal('modal-privacy');">Lei 13.709/2018 (LGPD)</a></div>
+    </div>
+  </div>
+</footer>
+
+
+<!-- ============== MODAL: CANDIDATURA ============== -->
+<div class="modal-backdrop" id="modal-candidatura" onclick="if(event.target===this) closeModal('modal-candidatura')">
+  <div class="modal" role="dialog" aria-modal="true" aria-labelledby="cand-title">
+    <div class="modal-header">
+      <h2 id="cand-title">Candidatura para <em id="cand-vaga-title">a vaga</em></h2>
+      <button class="modal-close" onclick="closeModal('modal-candidatura')" aria-label="Fechar">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+      </button>
+    </div>
+    <div class="modal-body">
+      <div class="form-progress" aria-hidden="true">
+        <div class="form-progress-step active"></div>
+        <div class="form-progress-step"></div>
+        <div class="form-progress-step"></div>
+      </div>
+
+      <form id="form-candidatura" novalidate>
+        <input type="hidden" name="vaga" id="cand-vaga-input" />
+
+        <div class="form-section">
+          <h3>1. Dados pessoais</h3>
+          <div class="form-row">
+            <div class="form-field">
+              <label for="cand-nome">Nome completo<span class="req">*</span></label>
+              <input type="text" id="cand-nome" name="nome" required />
+              <span class="error-msg">Informe seu nome completo</span>
+            </div>
+            <div class="form-field">
+              <label for="cand-nascimento">Data de nascimento<span class="req">*</span></label>
+              <input type="date" id="cand-nascimento" name="nascimento" required />
+              <span class="error-msg">Informe sua data de nascimento</span>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-field">
+              <label for="cand-email">E-mail<span class="req">*</span></label>
+              <input type="email" id="cand-email" name="email" required />
+              <span class="error-msg">Informe um e-mail válido</span>
+            </div>
+            <div class="form-field">
+              <label for="cand-whatsapp">WhatsApp<span class="req">*</span></label>
+              <input type="tel" id="cand-whatsapp" name="whatsapp" placeholder="(66) 99999-9999" required />
+              <span class="error-msg">Informe um WhatsApp válido</span>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-field">
+              <label for="cand-cidade">Cidade<span class="req">*</span></label>
+              <input type="text" id="cand-cidade" name="cidade" required />
+              <span class="error-msg">Informe sua cidade</span>
+            </div>
+            <div class="form-field">
+              <label for="cand-estado">Estado<span class="req">*</span></label>
+              <select id="cand-estado" name="estado" required>
+                <option value="">Selecione</option>
+                <option>MT</option><option>GO</option><option>MS</option>
+                <option>SP</option><option>RJ</option><option>Outro</option>
+              </select>
+              <span class="error-msg">Selecione um estado</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="form-section">
+          <h3>2. Formação e experiência</h3>
+          <div class="form-row">
+            <div class="form-field">
+              <label for="cand-escolaridade">Escolaridade<span class="req">*</span></label>
+              <select id="cand-escolaridade" name="escolaridade" required>
+                <option value="">Selecione</option>
+                <option>Ensino Fundamental</option>
+                <option>Ensino Médio</option>
+                <option>Técnico</option>
+                <option>Superior Incompleto</option>
+                <option>Superior Completo</option>
+                <option>Pós-graduação</option>
+              </select>
+              <span class="error-msg">Selecione sua escolaridade</span>
+            </div>
+            <div class="form-field">
+              <label for="cand-area">Área de atuação</label>
+              <select id="cand-area" name="area">
+                <option value="">Selecione</option>
+                <option>Logística</option>
+                <option>Operacional</option>
+                <option>Administrativo</option>
+                <option>RH</option>
+                <option>Manutenção</option>
+                <option>Segurança</option>
+                <option>Outro</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-field">
+              <label for="cand-cargo">Último cargo</label>
+              <input type="text" id="cand-cargo" name="cargo" />
+            </div>
+            <div class="form-field">
+              <label for="cand-empresa">Última empresa</label>
+              <input type="text" id="cand-empresa" name="empresa" />
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-field">
+              <label for="cand-tempo">Tempo de experiência</label>
+              <select id="cand-tempo" name="tempo">
+                <option value="">Selecione</option>
+                <option>Sem experiência</option>
+                <option>Menos de 1 ano</option>
+                <option>1 a 2 anos</option>
+                <option>2 a 5 anos</option>
+                <option>Mais de 5 anos</option>
+              </select>
+            </div>
+            <div class="form-field">
+              <label for="cand-pretensao">Pretensão salarial</label>
+              <input type="text" id="cand-pretensao" name="pretensao" placeholder="R$ 0,00" />
+            </div>
+          </div>
+        </div>
+
+        <div class="form-section">
+          <h3>3. Disponibilidade</h3>
+          <div class="form-row">
+            <div class="form-field">
+              <label for="cand-cnh">CNH</label>
+              <select id="cand-cnh" name="cnh">
+                <option>Não possuo</option>
+                <option>A</option><option>B</option><option>C</option>
+                <option>D</option><option>E</option><option>A/B</option>
+              </select>
+            </div>
+            <div class="form-field">
+              <label for="cand-viagem">Disponibilidade para viagens</label>
+              <select id="cand-viagem" name="viagem">
+                <option>Sim</option><option>Não</option><option>Eventualmente</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-row cols-1">
+            <div class="form-field">
+              <label for="cand-escala">Disponibilidade de horário/escala</label>
+              <input type="text" id="cand-escala" name="escala" placeholder="Ex: 6x1, 12x36, finais de semana, turnos" />
+            </div>
+          </div>
+          <div class="form-row cols-1">
+            <div class="form-field">
+              <label>Currículo (opcional)</label>
+              <label class="file-upload" for="cand-cv">
+                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" style="margin: 0 auto;"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="17 8 12 3 7 8"/><line x1="12" y1="3" x2="12" y2="15"/></svg>
+                <p>Clique para enviar ou arraste seu currículo</p>
+                <small>PDF, DOC ou DOCX · até 5 MB</small>
+                <input type="file" id="cand-cv" name="cv" accept=".pdf,.doc,.docx" />
+              </label>
+              <div class="file-name" id="cand-cv-name"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="lgpd-box">
+          <strong>🔒 Proteção de dados (LGPD)</strong>
+          Seus dados serão usados <strong>exclusivamente</strong> para fins de recrutamento e seleção pela Help Recrutamento, conforme a Lei 13.709/2018. Você pode acessar, corrigir ou solicitar exclusão a qualquer momento via <a href="mailto:privacidade@helprecrutamento.com.br">privacidade@helprecrutamento.com.br</a>.
+        </div>
+
+        <label class="checkbox-field">
+          <input type="checkbox" id="cand-consent" name="consent" required />
+          <span>Li e concordo com a <a href="#" onclick="event.preventDefault(); openModal('modal-privacy');" style="color:var(--brand); text-decoration:underline;">Política de Privacidade</a> e autorizo o uso dos meus dados para recrutamento e seleção, conforme LGPD.</span>
+        </label>
+
+        <button type="submit" class="btn btn-brand btn-block btn-lg" style="margin-top:24px;" id="btn-candidatura-submit">
+          <span class="btn-label">Enviar candidatura</span>
+          <span class="arrow">→</span>
+        </button>
+      </form>
+    </div>
+  </div>
+</div>
+
+<!-- ============== MODAL: BANCO DE TALENTOS ============== -->
+<div class="modal-backdrop" id="modal-talents" onclick="if(event.target===this) closeModal('modal-talents')">
+  <div class="modal" role="dialog" aria-modal="true" aria-labelledby="tal-title">
+    <div class="modal-header">
+      <h2 id="tal-title">Banco de <em>Talentos</em></h2>
+      <button class="modal-close" onclick="closeModal('modal-talents')" aria-label="Fechar">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+      </button>
+    </div>
+    <div class="modal-body">
+      <p style="font-size:15px; color:var(--muted); margin-bottom:24px; line-height:1.6;">Mesmo sem uma vaga específica agora, cadastre seu perfil. Quando surgir a oportunidade certa, somos os primeiros a chamar.</p>
+
+      <form id="form-talents" novalidate>
+        <div class="form-section">
+          <h3>Dados pessoais</h3>
+          <div class="form-row cols-1">
+            <div class="form-field">
+              <label for="tal-nome">Nome completo<span class="req">*</span></label>
+              <input type="text" id="tal-nome" name="nome" required />
+              <span class="error-msg">Informe seu nome</span>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-field">
+              <label for="tal-whatsapp">WhatsApp<span class="req">*</span></label>
+              <input type="tel" id="tal-whatsapp" name="whatsapp" placeholder="(66) 99999-9999" required />
+              <span class="error-msg">Informe um WhatsApp válido</span>
+            </div>
+            <div class="form-field">
+              <label for="tal-email">E-mail<span class="req">*</span></label>
+              <input type="email" id="tal-email" name="email" required />
+              <span class="error-msg">Informe um e-mail válido</span>
+            </div>
+          </div>
+          <div class="form-row cols-1">
+            <div class="form-field">
+              <label for="tal-cidade">Cidade / Estado<span class="req">*</span></label>
+              <input type="text" id="tal-cidade" name="cidade" placeholder="Ex: Rondonópolis, MT" required />
+              <span class="error-msg">Informe sua cidade e estado</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="form-section">
+          <h3>Perfil profissional</h3>
+          <div class="form-row">
+            <div class="form-field">
+              <label for="tal-area">Área de interesse<span class="req">*</span></label>
+              <select id="tal-area" name="area" required>
+                <option value="">Selecione</option>
+                <option>Logística</option>
+                <option>Operacional</option>
+                <option>Administrativo</option>
+                <option>RH</option>
+                <option>Manutenção</option>
+                <option>Segurança</option>
+                <option>Outro</option>
+              </select>
+              <span class="error-msg">Selecione uma área</span>
+            </div>
+            <div class="form-field">
+              <label for="tal-escolaridade">Escolaridade<span class="req">*</span></label>
+              <select id="tal-escolaridade" name="escolaridade" required>
+                <option value="">Selecione</option>
+                <option>Ensino Médio</option>
+                <option>Técnico</option>
+                <option>Superior Incompleto</option>
+                <option>Superior Completo</option>
+                <option>Pós-graduação</option>
+              </select>
+              <span class="error-msg">Selecione sua escolaridade</span>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-field">
+              <label for="tal-pretensao">Pretensão salarial</label>
+              <input type="text" id="tal-pretensao" name="pretensao" placeholder="R$ 0,00" />
+            </div>
+            <div class="form-field">
+              <label for="tal-cnh">CNH</label>
+              <select id="tal-cnh" name="cnh">
+                <option>Não possuo</option>
+                <option>A/B</option><option>C</option><option>D</option><option>E</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-row cols-1">
+            <div class="form-field">
+              <label>Currículo (opcional)</label>
+              <label class="file-upload" for="tal-cv">
+                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" style="margin:0 auto;"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="17 8 12 3 7 8"/><line x1="12" y1="3" x2="12" y2="15"/></svg>
+                <p>Clique para enviar ou arraste seu currículo</p>
+                <small>PDF, DOC ou DOCX · até 5 MB</small>
+                <input type="file" id="tal-cv" name="cv" accept=".pdf,.doc,.docx" />
+              </label>
+              <div class="file-name" id="tal-cv-name"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="lgpd-box">
+          <strong>🔒 Proteção de dados (LGPD)</strong>
+          Dados usados exclusivamente para recrutamento, conforme Lei 13.709/2018. Solicite acesso, correção ou exclusão a qualquer momento.
+        </div>
+
+        <label class="checkbox-field">
+          <input type="checkbox" id="tal-consent" name="consent" required />
+          <span>Li e concordo com a <a href="#" onclick="event.preventDefault(); openModal('modal-privacy');" style="color:var(--brand); text-decoration:underline;">Política de Privacidade</a> e autorizo o uso dos meus dados, conforme LGPD.</span>
+        </label>
+
+        <button type="submit" class="btn btn-brand btn-block btn-lg" style="margin-top:24px;" id="btn-talents-submit">
+          <span class="btn-label">Cadastrar no banco de talentos</span>
+          <span class="arrow">→</span>
+        </button>
+      </form>
+    </div>
+  </div>
+</div>
+
+<!-- ============== MODAL: SUCCESS ============== -->
+<div class="modal-backdrop" id="modal-success" onclick="if(event.target===this) closeModal('modal-success')">
+  <div class="modal" role="dialog" aria-modal="true" aria-labelledby="suc-title" style="max-width:560px;">
+    <div class="modal-body">
+      <div class="success-state">
+        <div class="success-icon">
+          <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+        </div>
+        <h2 id="suc-title">Cadastro <em>recebido!</em></h2>
+        <p id="suc-msg">Seu currículo foi recebido com sucesso. Nossa equipe entrará em contato em breve.</p>
+
+        <div class="next-steps">
+          <h4>O que acontece agora</h4>
+          <ol>
+            <li><div><strong>Em até 48h úteis</strong>Nossa equipe analisa seu cadastro e cruza com vagas abertas.</div></li>
+            <li><div><strong>Contato pelo WhatsApp</strong>Se houver match, ligamos pelo número oficial da Help para detalhes.</div></li>
+            <li><div><strong>Entrevista e contratação</strong>Se aprovado, encaminhamos para a empresa parceira em até 15 dias.</div></li>
+          </ol>
+        </div>
+
+        <button onclick="closeModal('modal-success')" class="btn btn-primary btn-lg">Entendi, fechar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ============== MODAL: PRIVACY ============== -->
+<div class="modal-backdrop" id="modal-privacy" onclick="if(event.target===this) closeModal('modal-privacy')">
+  <div class="modal" role="dialog" aria-modal="true" aria-labelledby="priv-title">
+    <div class="modal-header">
+      <h2 id="priv-title">Política de <em>Privacidade</em></h2>
+      <button class="modal-close" onclick="closeModal('modal-privacy')" aria-label="Fechar">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+      </button>
+    </div>
+    <div class="modal-body">
+      <div class="privacy-content">
+        <h3>1. Quem somos</h3>
+        <p>A <strong>Help Recrutamento</strong>, especializada em recrutamento e seleção, é a controladora dos dados pessoais coletados neste site, conforme a <strong>Lei Geral de Proteção de Dados (LGPD — Lei nº 13.709/2018)</strong>.</p>
+
+        <h3>2. Finalidade do tratamento</h3>
+        <p>Os dados são utilizados exclusivamente para:</p>
+        <ul>
+          <li>Avaliação e triagem de candidatos para vagas;</li>
+          <li>Formação e manutenção do banco de talentos;</li>
+          <li>Contato com candidatos sobre oportunidades compatíveis;</li>
+          <li>Encaminhamento a empresas parceiras, com seu consentimento.</li>
+        </ul>
+
+        <h3>3. Dados coletados</h3>
+        <ul>
+          <li><strong>Identificação:</strong> nome completo, data de nascimento;</li>
+          <li><strong>Contato:</strong> e-mail, WhatsApp/telefone;</li>
+          <li><strong>Localização:</strong> cidade e estado;</li>
+          <li><strong>Profissionais:</strong> formação, experiência, área, pretensão salarial, CNH, disponibilidade;</li>
+          <li><strong>Documentos:</strong> currículo (PDF, DOC ou DOCX), quando enviado.</li>
+        </ul>
+
+        <h3>4. Base legal</h3>
+        <p>Tratamento com base no <strong>consentimento expresso</strong> do titular (Art. 7º, I da LGPD), registrado no momento do envio do formulário.</p>
+
+        <h3>5. Armazenamento</h3>
+        <p>Dados armazenados em ambiente seguro com acesso restrito e autenticado, sob responsabilidade da Help Recrutamento.</p>
+
+        <h3>6. Tempo de retenção</h3>
+        <p>Mantidos por <strong>até 24 meses</strong> a partir do cadastro, ou até solicitação de exclusão. Após esse prazo, os dados são deletados ou anonimizados.</p>
+
+        <h3>7. Compartilhamento</h3>
+        <p>Seus dados <strong>não serão vendidos</strong>. Podem ser compartilhados apenas com empresas parceiras (ex: Rumo Logística, Vidal Transportes) em processos seletivos, sempre com sua ciência.</p>
+
+        <h3>8. Seus direitos (LGPD — Art. 18)</h3>
+        <ul>
+          <li>Confirmar a existência de tratamento dos seus dados;</li>
+          <li>Acessar seus dados a qualquer momento;</li>
+          <li>Corrigir dados incompletos, inexatos ou desatualizados;</li>
+          <li>Solicitar exclusão dos seus dados;</li>
+          <li>Revogar o consentimento a qualquer tempo;</li>
+          <li>Portabilidade dos dados a outro fornecedor.</li>
+        </ul>
+
+        <h3>9. Canal de contato (Encarregado/DPO)</h3>
+        <p>
+          <strong>E-mail:</strong> <a href="mailto:privacidade@helprecrutamento.com.br">privacidade@helprecrutamento.com.br</a><br>
+          <strong>Instagram:</strong> <a href="https://instagram.com/helprecrutamentos" target="_blank" rel="noopener">@helprecrutamentos</a>
+        </p>
+        <p>Respondemos em até <strong>15 dias úteis</strong>.</p>
+
+        <h3>10. Segurança</h3>
+        <p>Adotamos medidas técnicas e organizacionais para proteger seus dados contra acessos não autorizados, perdas ou divulgação indevida.</p>
+
+        <h3>11. Alterações</h3>
+        <p>Esta Política pode ser atualizada periodicamente. Alterações relevantes serão comunicadas no site.</p>
+
+        <div class="privacy-meta">Última atualização: Janeiro de 2025 · Versão 2.0</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<script>
+/* ============================================================
+   DADOS DAS VAGAS
+   Edite este array para adicionar/remover vagas.
+   ============================================================ */
+const VAGAS = [
+  {
+    id: 1,
+    titulo: "Operador de Pátio Ferroviário",
+    empresa: "Rumo Logística",
+    empresaSigla: "RL",
+    categoria: "Logística",
+    cidade: "Rondonópolis, MT",
+    tipo: "CLT",
+    salario: "R$ 2.800 + benefícios",
+    descricao: "Atuar na movimentação e operação de vagões no pátio ferroviário. Escala 12x36.",
+    publicada: "2026-04-22",
+    destaque: true
+  },
+  {
+    id: 2,
+    titulo: "Motorista Carreteiro",
+    empresa: "Vidal Transportes",
+    empresaSigla: "VT",
+    categoria: "Logística",
+    cidade: "Rondonópolis, MT",
+    tipo: "CLT",
+    salario: "R$ 4.500 + diárias",
+    descricao: "Transporte rodoviário de cargas. CNH E obrigatória, MOPP desejável.",
+    publicada: "2026-04-25"
+  },
+  {
+    id: 3,
+    titulo: "Auxiliar Administrativo",
+    empresa: "GLT Transportes",
+    empresaSigla: "GLT",
+    categoria: "Administrativo",
+    cidade: "Cuiabá, MT",
+    tipo: "CLT",
+    salario: "R$ 1.900 + VT + VR",
+    descricao: "Apoio em rotinas administrativas, controle de documentação e atendimento.",
+    publicada: "2026-04-20"
+  },
+  {
+    id: 4,
+    titulo: "Mecânico de Veículos Pesados",
+    empresa: "Hyundai",
+    empresaSigla: "HY",
+    categoria: "Manutenção",
+    cidade: "Rondonópolis, MT",
+    tipo: "CLT",
+    salario: "R$ 3.200 a R$ 4.000",
+    descricao: "Manutenção preventiva e corretiva em caminhões e veículos pesados.",
+    publicada: "2026-04-18"
+  },
+  {
+    id: 5,
+    titulo: "Operador de Empilhadeira",
+    empresa: "Vidal Transportes",
+    empresaSigla: "VT",
+    categoria: "Operacional",
+    cidade: "Campo Verde, MT",
+    tipo: "CLT",
+    salario: "R$ 2.200 + benefícios",
+    descricao: "Operação de empilhadeira em armazém. Curso e habilitação obrigatórios.",
+    publicada: "2026-04-26"
+  },
+  {
+    id: 6,
+    titulo: "Vigilante Patrimonial",
+    empresa: "Empresa Parceira",
+    empresaSigla: "EP",
+    categoria: "Segurança",
+    cidade: "Alto Garças, MT",
+    tipo: "CLT",
+    salario: "R$ 2.100 + adicional",
+    descricao: "Vigilância patrimonial 12x36. Curso de formação atualizado.",
+    publicada: "2026-04-15"
+  },
+  {
+    id: 7,
+    titulo: "Analista de RH Júnior",
+    empresa: "Help Recrutamento",
+    empresaSigla: "HR",
+    categoria: "RH",
+    cidade: "Cuiabá, MT",
+    tipo: "CLT",
+    salario: "R$ 2.800 + benefícios",
+    descricao: "Apoio em recrutamento, triagem e entrevistas. Superior em RH ou áreas afins.",
+    publicada: "2026-04-23"
+  },
+  {
+    id: 8,
+    titulo: "Estagiário Administrativo",
+    empresa: "Vidal Transportes",
+    empresaSigla: "VT",
+    categoria: "Administrativo",
+    cidade: "Campo Verde, MT",
+    tipo: "Estágio",
+    salario: "R$ 1.200 + VT",
+    descricao: "Estágio para cursando Administração, Logística ou Contábeis. 6h/dia.",
+    publicada: "2026-04-28"
+  }
+];
+
+/* ============================================================
+   ENDPOINT GOOGLE APPS SCRIPT
+   Substitua pela URL do seu Apps Script publicado.
+   ============================================================ */
+const GAS_ENDPOINT = ""; // ex: "https://script.google.com/macros/s/AKfyc.../exec"
+
+/* ============================================================
+   RENDERIZAR VAGAS
+   ============================================================ */
+function renderVagas(lista) {
+  const grid = document.getElementById("vagas-grid");
+  if (!lista.length) {
+    grid.innerHTML = `
+      <div class="vaga-empty">
+        <h3>Nenhuma vaga encontrada com esses filtros</h3>
+        <p>Tente ajustar os filtros ou cadastre seu currículo no banco de talentos.</p>
+        <button class="btn btn-brand" onclick="clearFilters()">Limpar filtros</button>
+      </div>`;
+    return;
+  }
+  grid.innerHTML = lista.map(v => `
+    <article class="vaga-card" onclick="openCandidatura(${v.id})" tabindex="0" role="button" aria-label="Candidatar-se para ${v.titulo} na ${v.empresa}">
+      <div class="vaga-card-top">
+        <div class="vaga-company">
+          <span class="company-mark">${v.empresaSigla}</span>
+          <span>${v.empresa}</span>
+        </div>
+        ${v.destaque ? '<span class="pill pill-brand">Destaque</span>' : '<span class="pill pill-success">● Ativa</span>'}
+      </div>
+      <h3>${v.titulo}</h3>
+      <div class="vaga-meta">
+        <span class="pill pill-soft">📍 ${v.cidade}</span>
+        <span class="pill pill-soft">${v.tipo}</span>
+        <span class="pill pill-soft">${v.categoria}</span>
+      </div>
+      <p style="font-size:14px; color:var(--muted); line-height:1.55;">${v.descricao}</p>
+      <div class="vaga-card-bottom">
+        <div class="vaga-salary">${v.salario}</div>
+        <span class="vaga-apply">Candidatar-se</span>
+      </div>
+    </article>
+  `).join("");
+}
+
+/* ============================================================
+   FILTROS
+   ============================================================ */
+function filterVagas() {
+  const cat = document.getElementById("filter-categoria").value;
+  const cid = document.getElementById("filter-cidade").value;
+  const tipo = document.getElementById("filter-tipo").value;
+
+  const filtradas = VAGAS.filter(v =>
+    (!cat || v.categoria === cat) &&
+    (!cid || v.cidade === cid) &&
+    (!tipo || v.tipo === tipo)
+  );
+  document.getElementById("vagas-count").textContent = `${filtradas.length} ${filtradas.length === 1 ? "vaga" : "vagas"}`;
+  renderVagas(filtradas);
+}
+
+function clearFilters() {
+  document.getElementById("filter-categoria").value = "";
+  document.getElementById("filter-cidade").value = "";
+  document.getElementById("filter-tipo").value = "";
+  filterVagas();
+}
+
+/* ============================================================
+   SCHEMA.ORG JOBPOSTING (Google for Jobs)
+   ============================================================ */
+function injectJobPostingsSchema() {
+  const graph = VAGAS.map(v => ({
+    "@type": "JobPosting",
+    "title": v.titulo,
+    "description": v.descricao,
+    "datePosted": v.publicada,
+    "validThrough": new Date(new Date(v.publicada).getTime() + 60 * 24 * 60 * 60 * 1000).toISOString().split("T")[0],
+    "employmentType": v.tipo === "CLT" ? "FULL_TIME" : v.tipo === "Estágio" ? "INTERN" : v.tipo === "Temporário" ? "TEMPORARY" : "CONTRACTOR",
+    "hiringOrganization": {
+      "@type": "Organization",
+      "name": v.empresa
+    },
+    "jobLocation": {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": v.cidade.split(",")[0].trim(),
+        "addressRegion": "MT",
+        "addressCountry": "BR"
+      }
+    },
+    "industry": v.categoria,
+    "directApply": true
+  }));
+
+  const script = document.getElementById("job-postings-schema");
+  if (script) {
+    script.textContent = JSON.stringify({
+      "@context": "https://schema.org",
+      "@graph": graph
+    });
+  }
+}
+
+/* ============================================================
+   ABRIR CANDIDATURA POR VAGA
+   ============================================================ */
+function openCandidatura(vagaId) {
+  const v = VAGAS.find(x => x.id === vagaId);
+  if (!v) return;
+  document.getElementById("cand-vaga-title").textContent = v.titulo;
+  document.getElementById("cand-vaga-input").value = `${v.titulo} — ${v.empresa}`;
+  openModal("modal-candidatura");
+}
+
+/* ============================================================
+   MODAIS
+   ============================================================ */
+function openModal(id) {
+  const m = document.getElementById(id);
+  if (!m) return;
+  m.classList.add("open");
+  document.body.style.overflow = "hidden";
+}
+function closeModal(id) {
+  const m = document.getElementById(id);
+  if (!m) return;
+  m.classList.remove("open");
+  document.body.style.overflow = "";
+}
+document.addEventListener("keydown", e => {
+  if (e.key === "Escape") {
+    document.querySelectorAll(".modal-backdrop.open").forEach(m => closeModal(m.id));
+    const mm = document.getElementById("mobile-menu");
+    if (mm.classList.contains("open")) toggleMobileMenu();
+  }
+});
+
+/* ============================================================
+   MOBILE MENU
+   ============================================================ */
+function toggleMobileMenu() {
+  const m = document.getElementById("mobile-menu");
+  m.classList.toggle("open");
+  document.body.style.overflow = m.classList.contains("open") ? "hidden" : "";
+}
+
+/* ============================================================
+   TOAST
+   ============================================================ */
+let toastTimer;
+function toast(msg, type = "success", duration = 4000) {
+  const el = document.getElementById("toast");
+  const icon = document.getElementById("toast-icon");
+  const text = document.getElementById("toast-msg");
+  text.textContent = msg;
+  icon.textContent = type === "error" ? "⚠" : type === "success" ? "✓" : "ℹ";
+  el.className = "toast visible " + type;
+  clearTimeout(toastTimer);
+  toastTimer = setTimeout(() => el.classList.remove("visible"), duration);
+}
+
+/* ============================================================
+   FILE UPLOAD UI
+   ============================================================ */
+function setupFileUpload(inputId, nameId) {
+  const input = document.getElementById(inputId);
+  const display = document.getElementById(nameId);
+  if (!input) return;
+  const wrapper = input.closest(".file-upload");
+
+  input.addEventListener("change", () => {
+    if (input.files && input.files[0]) {
+      const f = input.files[0];
+      if (f.size > 5 * 1024 * 1024) {
+        toast("Arquivo maior que 5 MB. Tente um menor.", "error");
+        input.value = "";
+        display.classList.remove("visible");
+        return;
+      }
+      display.textContent = `📄 ${f.name} (${(f.size/1024).toFixed(0)} KB)`;
+      display.classList.add("visible");
+    }
+  });
+
+  // drag & drop
+  ["dragenter", "dragover"].forEach(ev => {
+    wrapper.addEventListener(ev, e => { e.preventDefault(); wrapper.classList.add("drag-over"); });
+  });
+  ["dragleave", "drop"].forEach(ev => {
+    wrapper.addEventListener(ev, e => { e.preventDefault(); wrapper.classList.remove("drag-over"); });
+  });
+  wrapper.addEventListener("drop", e => {
+    if (e.dataTransfer.files && e.dataTransfer.files[0]) {
+      input.files = e.dataTransfer.files;
+      input.dispatchEvent(new Event("change"));
+    }
+  });
+}
+
+/* ============================================================
+   VALIDAÇÃO + ENVIO DE FORMULÁRIO
+   ============================================================ */
+function validateField(field) {
+  const wrapper = field.closest(".form-field");
+  if (!wrapper) return true;
+  const valid = field.checkValidity() && (field.type !== "email" || /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(field.value));
+  wrapper.classList.toggle("has-error", !valid);
+  field.classList.toggle("error", !valid);
+  return valid;
+}
+
+function setupFormValidation(formId) {
+  const form = document.getElementById(formId);
+  if (!form) return;
+  form.querySelectorAll("input, select").forEach(field => {
+    field.addEventListener("blur", () => validateField(field));
+    field.addEventListener("input", () => {
+      if (field.closest(".form-field")?.classList.contains("has-error")) {
+        validateField(field);
+      }
+    });
+  });
+}
+
+async function submitForm(formId, btnId, type) {
+  const form = document.getElementById(formId);
+  const btn = document.getElementById(btnId);
+  if (!form || !btn) return;
+
+  // Validar
+  let valid = true;
+  form.querySelectorAll("[required]").forEach(f => {
+    if (!validateField(f)) valid = false;
+  });
+  const consent = form.querySelector('[name="consent"]');
+  if (consent && !consent.checked) {
+    toast("Você precisa aceitar a Política de Privacidade", "error");
+    valid = false;
+  }
+  if (!valid) {
+    toast("Verifique os campos destacados", "error");
+    return;
+  }
+
+  // Loading state
+  const label = btn.querySelector(".btn-label");
+  const arrow = btn.querySelector(".arrow");
+  const originalLabel = label.textContent;
+  btn.disabled = true;
+  btn.style.opacity = "0.85";
+  label.innerHTML = '<span class="spinner"></span> Enviando...';
+  if (arrow) arrow.style.display = "none";
+
+  try {
+    const formData = new FormData(form);
+    const payload = { tipo: type, timestamp: new Date().toISOString() };
+    formData.forEach((v, k) => { if (k !== "cv") payload[k] = v; });
+
+    if (GAS_ENDPOINT) {
+      // Envio para Google Apps Script
+      await fetch(GAS_ENDPOINT, {
+        method: "POST",
+        mode: "no-cors",
+        body: JSON.stringify(payload)
+      });
+    } else {
+      // Demo: simular delay
+      await new Promise(r => setTimeout(r, 900));
+      console.log("[DEMO] Payload que seria enviado:", payload);
+    }
+
+    // Success
+    closeModal(formId === "form-candidatura" ? "modal-candidatura" : "modal-talents");
+    setTimeout(() => {
+      const successTitle = document.querySelector("#suc-title");
+      const successMsg = document.getElementById("suc-msg");
+      if (type === "candidatura") {
+        successTitle.innerHTML = 'Candidatura <em>enviada!</em>';
+        successMsg.textContent = "Recebemos seu currículo. Nossa equipe vai analisar e entrar em contato em breve.";
+      } else {
+        successTitle.innerHTML = 'Cadastro <em>recebido!</em>';
+        successMsg.textContent = "Seu perfil entrou para o nosso banco de talentos. Vamos te chamar quando surgir a oportunidade certa.";
+      }
+      openModal("modal-success");
+    }, 200);
+    form.reset();
+    form.querySelectorAll(".file-name").forEach(el => el.classList.remove("visible"));
+    form.querySelectorAll(".has-error").forEach(el => el.classList.remove("has-error"));
+    toast("Enviado com sucesso!", "success");
+  } catch (err) {
+    console.error(err);
+    toast("Erro ao enviar. Tente novamente em alguns instantes.", "error");
+  } finally {
+    btn.disabled = false;
+    btn.style.opacity = "";
+    label.textContent = originalLabel;
+    if (arrow) arrow.style.display = "";
+  }
+}
+
+/* ============================================================
+   MASK WHATSAPP
+   ============================================================ */
+function maskPhone(input) {
+  input.addEventListener("input", e => {
+    let v = e.target.value.replace(/\D/g, "");
+    if (v.length > 11) v = v.slice(0, 11);
+    if (v.length > 10) v = v.replace(/^(\d{2})(\d{5})(\d{0,4})/, "($1) $2-$3");
+    else if (v.length > 6) v = v.replace(/^(\d{2})(\d{4})(\d{0,4})/, "($1) $2-$3");
+    else if (v.length > 2) v = v.replace(/^(\d{2})(\d{0,5})/, "($1) $2");
+    else if (v.length > 0) v = v.replace(/^(\d{0,2})/, "($1");
+    e.target.value = v;
+  });
+}
+
+/* ============================================================
+   REVEAL ON SCROLL
+   ============================================================ */
+function setupReveal() {
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add("in");
+        observer.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.1, rootMargin: "0px 0px -60px 0px" });
+  document.querySelectorAll(".reveal").forEach(el => observer.observe(el));
+}
+
+/* ============================================================
+   NAV SCROLL EFFECT
+   ============================================================ */
+function setupNavScroll() {
+  const nav = document.getElementById("nav");
+  const wa = document.getElementById("wa-float");
+  let lastY = 0;
+  const handler = () => {
+    const y = window.scrollY;
+    nav.classList.toggle("scrolled", y > 20);
+    wa.classList.toggle("visible", y > 400);
+    lastY = y;
+  };
+  window.addEventListener("scroll", handler, { passive: true });
+  handler();
+}
+
+/* ============================================================
+   INIT
+   ============================================================ */
+document.addEventListener("DOMContentLoaded", () => {
+  // Render vagas
+  renderVagas(VAGAS);
+  document.getElementById("hero-vagas-count").textContent = VAGAS.length;
+  document.getElementById("vagas-count").textContent = `${VAGAS.length} vagas`;
+
+  // Schema.org
+  injectJobPostingsSchema();
+
+  // File uploads
+  setupFileUpload("cand-cv", "cand-cv-name");
+  setupFileUpload("tal-cv", "tal-cv-name");
+
+  // Form validations
+  setupFormValidation("form-candidatura");
+  setupFormValidation("form-talents");
+
+  // Form submits
+  document.getElementById("form-candidatura").addEventListener("submit", e => {
+    e.preventDefault();
+    submitForm("form-candidatura", "btn-candidatura-submit", "candidatura");
+  });
+  document.getElementById("form-talents").addEventListener("submit", e => {
+    e.preventDefault();
+    submitForm("form-talents", "btn-talents-submit", "banco_talentos");
+  });
+
+  // Phone masks
+  ["cand-whatsapp", "tal-whatsapp"].forEach(id => {
+    const el = document.getElementById(id);
+    if (el) maskPhone(el);
+  });
+
+  // Reveal animations
+  setupReveal();
+
+  // Nav scroll effect
+  setupNavScroll();
+});
+</script>
+
+</body>
+</html>
