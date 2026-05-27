@@ -8,7 +8,7 @@
   <meta name="robots" content="index, follow" />
   <link rel="canonical" href="https://marcelemiliobr.github.io/help-recrutamento/" />
   <meta property="og:type" content="website" />
-  <meta property="og:title" content="Help Recrutamento — Consultoria de R&S em Mato Grosso" />
+  <meta property="og:title" content="Help Recrutamento — Consultoria de R&amp;S em Mato Grosso" />
   <meta property="og:description" content="Parceira estratégica em recrutamento e seleção no Centro-Oeste. Metodologia estruturada e entrega em até 15 dias úteis." />
   <meta property="og:image" content="https://marcelemiliobr.github.io/help-recrutamento/og-image.jpg" />
   <meta name="theme-color" content="#0A0A0A" />
@@ -307,7 +307,7 @@
     .faq-item summary{list-style:none;cursor:pointer;padding:22px 24px;display:flex;justify-content:space-between;align-items:center;gap:16px;font-weight:500;font-size:16px;}
     .faq-item summary::-webkit-details-marker{display:none;}
     .faq-item summary::after{content:'+';font-family:var(--font-display);font-size:24px;color:var(--brand);line-height:1;}
-    .faq-item[open] summary::after{content:'&#8722;';}
+    .faq-item[open] summary::after{content:'−';}
     .faq-item-content{padding:0 24px 24px;color:var(--muted);font-size:15px;line-height:1.6;}
     .faq-item-content strong{color:var(--ink);font-weight:600;}
 
@@ -394,7 +394,7 @@
 <body>
 
 <div id="toast" class="toast" role="status" aria-live="polite">
-  <span id="toast-icon">&#10003;</span><span id="toast-msg">Mensagem</span>
+  <span id="toast-icon">✓</span><span id="toast-msg">Mensagem</span>
 </div>
 
 <!-- NAV -->
@@ -413,7 +413,7 @@
     </nav>
     <div class="nav-cta">
       <a href="#vagas" class="btn btn-ghost btn-sm">Ver vagas</a>
-      <button onclick="openModal('modal-empresa')" class="btn btn-primary btn-sm">Solicitar proposta <span class="arrow">&#8594;</span></button>
+      <button onclick="openModal('modal-empresa')" class="btn btn-primary btn-sm">Solicitar proposta <span class="arrow">→</span></button>
       <button class="nav-toggle" aria-label="Menu" onclick="toggleMobileMenu()">
         <svg width="20" height="14" viewBox="0 0 20 14" fill="none"><path d="M1 1h18M1 7h18M1 13h18" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
       </button>
@@ -426,12 +426,10 @@
   <a href="#empresas" onclick="toggleMobileMenu()">Para Empresas</a>
   <a href="#vagas" onclick="toggleMobileMenu()">Vagas abertas</a>
   <a href="#faq" onclick="toggleMobileMenu()">Perguntas frequentes</a>
-  <button onclick="toggleMobileMenu();openModal('modal-empresa')" class="btn btn-brand">Solicitar proposta <span class="arrow">&#8594;</span></button>
+  <button onclick="toggleMobileMenu();openModal('modal-empresa')" class="btn btn-brand">Solicitar proposta <span class="arrow">→</span></button>
 </div>
 
-<!-- ============================================================
-     HERO — foco B2B
-     ============================================================ -->
+<!-- HERO -->
 <section class="hero">
   <div class="hero-bg"></div>
   <div class="hero-grain"></div>
@@ -441,13 +439,13 @@
       <h1>Recrutamento<br>estratégico de alta<br><em>performance</em></h1>
       <p class="lead">A Help Recrutamento é sua parceira estratégica em recrutamento e seleção. Metodologia estruturada, foco em fit cultural e entrega dos candidatos certos em até 15 dias úteis.</p>
       <div class="hero-actions">
-        <button onclick="openModal('modal-empresa')" class="btn btn-brand btn-lg">Solicitar proposta <span class="arrow">&#8594;</span></button>
+        <button onclick="openModal('modal-empresa')" class="btn btn-brand btn-lg">Solicitar proposta <span class="arrow">→</span></button>
         <a href="#metodos" class="btn btn-ghost btn-lg">Conhecer os métodos</a>
       </div>
       <div class="hero-trust">
         <div class="avatars" aria-hidden="true"><span>RL</span><span>VT</span><span>GL</span><span>+</span></div>
         <div>
-          <div class="stars" aria-hidden="true">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <div class="stars" aria-hidden="true">★★★★★</div>
           <div><strong style="color:var(--ink);font-weight:600;">+12 empresas parceiras</strong> confiam na Help</div>
         </div>
       </div>
@@ -457,11 +455,11 @@
         <div class="job-mini">
           <div class="job-mini-header">
             <div class="job-mini-company"><span class="company-mark">R&amp;S</span><span>Help Recrutamento</span></div>
-            <span class="pill pill-success">&#9679; Processo ativo</span>
+            <span class="pill pill-success">● Processo ativo</span>
           </div>
           <h3>Seleção em andamento</h3>
           <div class="job-mini-meta">
-            <span class="pill pill-soft">Rumo Log&#237;stica</span>
+            <span class="pill pill-soft">Rumo Logística</span>
             <span class="pill pill-soft">3 vagas</span>
           </div>
           <div class="job-mini-progress">
@@ -476,7 +474,7 @@
             <div class="job-mini-company"><span class="company-mark" style="background:var(--brand);color:white;">OK</span><span>Vidal Transportes</span></div>
             <span class="pill pill-brand">Finalizado</span>
           </div>
-          <h3 style="font-size:16px;">Motorista&#160;D &#10003;</h3>
+          <h3 style="font-size:16px;">Motorista D ✓</h3>
           <div class="job-mini-meta"><span class="pill pill-soft">12 dias</span></div>
         </div>
       </div>
@@ -489,18 +487,16 @@
   <div class="container">
     <div class="trust-bar-label">Empresas que contratam com a Help Recrutamento</div>
     <div class="trust-logos">
-      <div class="trust-logo">RUMO<small>Log&#237;stica</small></div>
+      <div class="trust-logo">RUMO<small>Logística</small></div>
       <div class="trust-logo">VIDAL<small>Transportes</small></div>
       <div class="trust-logo">GLT<small>Transportes</small></div>
-      <div class="trust-logo">HYUNDAI<small>Concession&#225;ria</small></div>
+      <div class="trust-logo">HYUNDAI<small>Concessária</small></div>
       <div class="trust-logo">+12<small>Parceiras</small></div>
     </div>
   </div>
 </section>
 
-<!-- ============================================================
-     SOBRE — quem é a Help e o que oferece
-     ============================================================ -->
+<!-- SOBRE -->
 <section class="section" id="sobre">
   <div class="container">
     <div class="founder-grid">
@@ -516,7 +512,7 @@
         <blockquote class="founder-quote">"Nossa missão é ser a extensão do RH da sua empresa. Entendemos a cultura, o cargo e o perfil ideal antes de apresentar qualquer candidato."</blockquote>
         <p>Atendemos empresas de logística, transporte, agronegócio, indústria e comércio em Rondonópolis, Cuiabá, Campo Verde, Alto Garças e mais de 20 cidades do MT.</p>
         <div style="display:flex;gap:24px;margin-top:32px;flex-wrap:wrap;">
-          <button onclick="openModal('modal-empresa')" class="btn btn-brand">Solicitar proposta <span class="arrow">&#8594;</span></button>
+          <button onclick="openModal('modal-empresa')" class="btn btn-brand">Solicitar proposta <span class="arrow">→</span></button>
           <a href="https://instagram.com/helprecrutamentos" target="_blank" rel="noopener" class="btn btn-link">@helprecrutamentos</a>
         </div>
       </div>
@@ -524,9 +520,7 @@
   </div>
 </section>
 
-<!-- ============================================================
-     MÉTODOS — o que a Help usa na seleção
-     ============================================================ -->
+<!-- MÉTODOS -->
 <section class="section" id="metodos" style="background:var(--bg-warm);">
   <div class="container">
     <div class="how-header">
@@ -562,12 +556,12 @@
         <p>Perguntas padronizadas por competência que eliminam viés inconsciente e tornam a avaliação objetiva. O resultado? Decisões de contratação muito mais seguras.</p>
       </div>
       <div class="step reveal" style="transition-delay:0.3s">
-        <div class="step-num">04 — DIN&#194;MICAS E CASES</div>
+        <div class="step-num">04 — DINÂMICAS E CASES</div>
         <div class="step-icon">
           <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
         </div>
-        <h3>Din&#226;micas e Cases Pr&#225;ticos</h3>
-        <p>Simulamos situa&#231;&#245;es reais do cargo para avaliar o profissional em a&#231;&#227;o — n&#227;o s&#243; no papel. Voc&#234; conhece o candidato antes de contrat&#225;-lo.</p>
+        <h3>Dinâmicas e Cases Práticos</h3>
+        <p>Simulamos situações reais do cargo para avaliar o profissional em ação — não só no papel. Você conhece o candidato antes de contratá-lo.</p>
       </div>
     </div>
   </div>
@@ -578,28 +572,26 @@
   <div class="container stats-inner">
     <div class="stats-header reveal">
       <span class="eyebrow">Resultados que importam</span>
-      <h2>N&#250;meros que <em>falam</em><br>por n&#243;s.</h2>
+      <h2>Números que <em>falam</em><br>por nós.</h2>
     </div>
     <div class="stats-grid">
       <div class="stat reveal"><div class="stat-num"><em>+150</em></div><div class="stat-label">Profissionais contratados<br>via Help Recrutamento</div></div>
-      <div class="stat reveal" style="transition-delay:0.1s"><div class="stat-num"><em>15</em></div><div class="stat-label">Dias &#250;teis em m&#233;dia<br>para fechar uma vaga</div></div>
+      <div class="stat reveal" style="transition-delay:0.1s"><div class="stat-num"><em>15</em></div><div class="stat-label">Dias úteis em média<br>para fechar uma vaga</div></div>
       <div class="stat reveal" style="transition-delay:0.2s"><div class="stat-num"><em>+12</em></div><div class="stat-label">Empresas parceiras<br>no Centro-Oeste</div></div>
       <div class="stat reveal" style="transition-delay:0.3s"><div class="stat-num"><em>+20</em></div><div class="stat-label">Cidades atendidas<br>em Mato Grosso</div></div>
     </div>
   </div>
 </section>
 
-<!-- ============================================================
-     HOW IT WORKS — perspectiva da empresa
-     ============================================================ -->
+<!-- HOW IT WORKS -->
 <section class="section" id="como-funciona">
   <div class="container">
     <div class="how-header">
       <div class="reveal">
         <span class="eyebrow">Como funciona</span>
-        <h2 style="margin-top:16px;">Do briefing &#224;<br><em>contrata&#231;&#227;o.</em></h2>
+        <h2 style="margin-top:16px;">Do briefing à<br><em>contratação.</em></h2>
       </div>
-      <p class="reveal" style="transition-delay:0.1s">Processo claro e transparente. Voc&#234; acompanha cada etapa e s&#243; entrevista candidatos j&#225; validados pela nossa equipe.</p>
+      <p class="reveal" style="transition-delay:0.1s">Processo claro e transparente. Você acompanha cada etapa e só entrevista candidatos já validados pela nossa equipe.</p>
     </div>
     <div class="steps">
       <div class="step reveal">
@@ -608,31 +600,31 @@
           <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="9" y1="13" x2="15" y2="13"/><line x1="9" y1="17" x2="15" y2="17"/></svg>
         </div>
         <h3>Entendemos a vaga</h3>
-        <p>Realizamos um briefing detalhado: perfil t&#233;cnico, compet&#234;ncias, cultura da empresa e expectativas salariais. Nada &#233; gen&#233;rico.</p>
+        <p>Realizamos um briefing detalhado: perfil técnico, competências, cultura da empresa e expectativas salariais. Nada é genérico.</p>
       </div>
       <div class="step reveal" style="transition-delay:0.1s">
-        <div class="step-num">02 — BUSCA E TRIA&#199;&#195;O</div>
+        <div class="step-num">02 — BUSCA E TRIAGEM</div>
         <div class="step-icon">
           <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
         </div>
-        <h3>Buscamos e aplicamos os m&#233;todos</h3>
-        <p>Ativamos nosso banco de talentos regional, aplicamos testes comportamentais, entrevistas estruturadas e din&#226;micas conforme o perfil da vaga.</p>
+        <h3>Buscamos e aplicamos os métodos</h3>
+        <p>Ativamos nosso banco de talentos regional, aplicamos testes comportamentais, entrevistas estruturadas e dinâmicas conforme o perfil da vaga.</p>
       </div>
       <div class="step reveal" style="transition-delay:0.2s">
-        <div class="step-num">03 — APRESENTA&#199;&#195;O</div>
+        <div class="step-num">03 — APRESENTAÇÃO</div>
         <div class="step-icon">
           <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
         </div>
-        <h3>Finalistas j&#225; validados</h3>
-        <p>Voc&#234; recebe apenas os melhores candidatos, com relat&#243;rio comportamental e nossa recomenda&#231;&#227;o. Nenhum curr&#237;culo para filtrar.</p>
+        <h3>Finalistas já validados</h3>
+        <p>Você recebe apenas os melhores candidatos, com relatório comportamental e nossa recomendação. Nenhum currículo para filtrar.</p>
       </div>
       <div class="step reveal" style="transition-delay:0.3s">
-        <div class="step-num">04 — CONTRATA&#199;&#195;O</div>
+        <div class="step-num">04 — CONTRATAÇÃO</div>
         <div class="step-icon">
           <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
         </div>
-        <h3>Suporte at&#233; a assinatura</h3>
-        <p>Acompanhamos a negocia&#231;&#227;o e o onboarding. Da entrevista &#224; contrata&#231;&#227;o em at&#233; 15 dias &#250;teis, em m&#233;dia.</p>
+        <h3>Suporte até a assinatura</h3>
+        <p>Acompanhamos a negociação e o onboarding. Da entrevista à contratação em até 15 dias úteis, em média.</p>
       </div>
     </div>
   </div>
@@ -649,19 +641,19 @@
         <div class="dores-list">
           <div class="dor-item">
             <div class="dor-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></div>
-            <div class="dor-text"><strong>Processo ágil e transparente</strong><span>Voc&#234; acompanha cada etapa e tem visibilidade total do andamento da sele&#231;&#227;o.</span></div>
+            <div class="dor-text"><strong>Processo ágil e transparente</strong><span>Você acompanha cada etapa e tem visibilidade total do andamento da seleção.</span></div>
           </div>
           <div class="dor-item">
             <div class="dor-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/></svg></div>
-            <div class="dor-text"><strong>Banco de talentos regional ativo</strong><span>+2.000 candidatos cadastrados no MT — agilizamos a entrega porque j&#225; conhecemos o mercado.</span></div>
+            <div class="dor-text"><strong>Banco de talentos regional ativo</strong><span>+2.000 candidatos cadastrados no MT — agilizamos a entrega porque já conhecemos o mercado.</span></div>
           </div>
           <div class="dor-item">
             <div class="dor-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 11 12 14 22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg></div>
-            <div class="dor-text"><strong>Garantia de assertividade</strong><span>Candidatos validados por m&#250;ltiplos m&#233;todos. Menos rotatividade, mais produ&#231;&#227;o desde o primeiro dia.</span></div>
+            <div class="dor-text"><strong>Garantia de assertividade</strong><span>Candidatos validados por múltiplos métodos. Menos rotatividade, mais produção desde o primeiro dia.</span></div>
           </div>
         </div>
         <div class="empresas-ctas">
-          <button onclick="openModal('modal-empresa')" class="btn btn-brand btn-lg">Solicitar proposta <span class="arrow">&#8594;</span></button>
+          <button onclick="openModal('modal-empresa')" class="btn btn-brand btn-lg">Solicitar proposta <span class="arrow">→</span></button>
           <a href="https://wa.me/5566999999999?text=Ol%C3%A1!%20Sou%20de%20uma%20empresa%20e%20gostaria%20de%20uma%20proposta%20da%20Help%20Recrutamento." target="_blank" rel="noopener" class="btn btn-ghost-white btn-lg">
             <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M17.6 6.32A7.85 7.85 0 0 0 12.05 4a7.94 7.94 0 0 0-6.88 11.92L4 20l4.2-1.1a7.93 7.93 0 0 0 3.85.98h.01a7.94 7.94 0 0 0 5.54-13.56z"/></svg>
             WhatsApp direto
@@ -676,7 +668,7 @@
         <div class="diferenciais">
           <div class="diferencial">
             <div class="diferencial-num">15</div>
-            <div class="diferencial-text"><strong>Dias para fechar uma vaga</strong><span>Tempo m&#233;dio do briefing &#224; contrata&#231;&#227;o efetiva.</span></div>
+            <div class="diferencial-text"><strong>Dias para fechar uma vaga</strong><span>Tempo médio do briefing à contratação efetiva.</span></div>
           </div>
           <div class="diferencial">
             <div class="diferencial-num">+2k</div>
@@ -684,15 +676,15 @@
           </div>
           <div class="diferencial">
             <div class="diferencial-num">4</div>
-            <div class="diferencial-text"><strong>M&#233;todos de sele&#231;&#227;o aplicados</strong><span>Employer Branding, Testes, Entrevista Estruturada e Din&#226;micas.</span></div>
+            <div class="diferencial-text"><strong>Métodos de seleção aplicados</strong><span>Employer Branding, Testes, Entrevista Estruturada e Dinâmicas.</span></div>
           </div>
         </div>
         <a href="https://wa.me/5566999999999?text=Ol%C3%A1!%20Sou%20de%20uma%20empresa%20e%20gostaria%20de%20contratar%20a%20Help%20Recrutamento." target="_blank" rel="noopener" class="empresas-wa">
           <div class="empresas-wa-icon">
             <svg width="22" height="22" viewBox="0 0 24 24" fill="white"><path d="M17.6 6.32A7.85 7.85 0 0 0 12.05 4a7.94 7.94 0 0 0-6.88 11.92L4 20l4.2-1.1a7.93 7.93 0 0 0 3.85.98h.01a7.94 7.94 0 0 0 5.54-13.56zM12.06 18.5h-.01a6.6 6.6 0 0 1-3.36-.92l-.24-.14-2.5.65.67-2.43-.16-.25a6.6 6.6 0 1 1 12.25-3.5 6.6 6.6 0 0 1-6.65 6.59z"/></svg>
           </div>
-          <div class="empresas-wa-text"><strong>Falar com um consultor agora</strong><span>Resposta em at&#233; 1h em dias &#250;teis</span></div>
-          <span class="empresas-wa-arrow">&#8594;</span>
+          <div class="empresas-wa-text"><strong>Falar com um consultor agora</strong><span>Resposta em até 1h em dias úteis</span></div>
+          <span class="empresas-wa-arrow">→</span>
         </a>
       </div>
     </div>
@@ -704,24 +696,22 @@
   <div class="container partners-inner">
     <div class="partners-grid">
       <div class="partners-text reveal">
-        <span class="eyebrow">Parcerias estrat&#233;gicas</span>
-        <h2>Empresas que j&#225;<br><em>confiam na Help.</em></h2>
-        <p>Trabalhamos diretamente com l&#237;deres de mercado em log&#237;stica, transporte e ind&#250;stria pesada no Centro-Oeste. Nosso processo &#233; validado por essas empresas.</p>
-        <button onclick="openModal('modal-empresa')" class="btn btn-brand">Quero ser parceiro <span class="arrow">&#8594;</span></button>
+        <span class="eyebrow">Parcerias estratégicas</span>
+        <h2>Empresas que já<br><em>confiam na Help.</em></h2>
+        <p>Trabalhamos diretamente com líderes de mercado em logística, transporte e indústria pesada no Centro-Oeste. Nosso processo é validado por essas empresas.</p>
+        <button onclick="openModal('modal-empresa')" class="btn btn-brand">Quero ser parceiro <span class="arrow">→</span></button>
       </div>
       <div class="partners-list reveal" style="transition-delay:0.15s">
-        <div class="partner-item"><h4>Rumo Log&#237;stica</h4><p>Maior operadora ferrovi&#225;ria independente do Brasil. Sele&#231;&#245;es em p&#225;tios e opera&#231;&#245;es.</p></div>
-        <div class="partner-item"><h4>Vidal Transportes</h4><p>L&#237;der regional em transporte rodovi&#225;rio de cargas no Centro-Oeste.</p></div>
-        <div class="partner-item"><h4>GLT Transportes</h4><p>Especializada em log&#237;stica agr&#237;cola e opera&#231;&#245;es no agroneg&#243;cio.</p></div>
-        <div class="partner-item"><h4>Hyundai</h4><p>Concess&#237;on&#225;ria de ve&#237;culos &#8212; sele&#231;&#245;es t&#233;cnicas e administrativas.</p></div>
+        <div class="partner-item"><h4>Rumo Logística</h4><p>Maior operadora ferroviária independente do Brasil. Seleções em pátios e operações.</p></div>
+        <div class="partner-item"><h4>Vidal Transportes</h4><p>Líder regional em transporte rodoviário de cargas no Centro-Oeste.</p></div>
+        <div class="partner-item"><h4>GLT Transportes</h4><p>Especializada em logística agrícola e operações no agronegócio.</p></div>
+        <div class="partner-item"><h4>Hyundai</h4><p>Concessionária de veículos — seleções técnicas e administrativas.</p></div>
       </div>
     </div>
   </div>
 </section>
 
-<!-- ============================================================
-     VAGAS — seção secundária (candidatos)
-     ============================================================ -->
+<!-- VAGAS -->
 <section class="section vagas-section" id="vagas">
   <div class="container">
     <div class="vagas-header reveal">
@@ -729,76 +719,74 @@
         <span class="eyebrow">Para Candidatos</span>
         <h2 style="margin-top:16px;">Vagas <em>abertas</em><br>agora.</h2>
       </div>
-      <div class="vagas-count">Atualizado em tempo real &#183; <strong id="vagas-count">8 vagas</strong></div>
+      <div class="vagas-count">Atualizado em tempo real · <strong id="vagas-count">8 vagas</strong></div>
     </div>
     <div class="filters reveal">
       <div class="filter-group">
         <label for="filter-categoria">Categoria</label>
         <select id="filter-categoria" onchange="filterVagas()">
-          <option value="">Todas as &#225;reas</option>
-          <option>Log&#237;stica</option><option>Operacional</option><option>Administrativo</option>
-          <option>RH</option><option>Manuten&#231;&#227;o</option><option>Seguran&#231;a</option>
+          <option value="">Todas as áreas</option>
+          <option>Logística</option><option>Operacional</option><option>Administrativo</option>
+          <option>RH</option><option>Manutenção</option><option>Segurança</option>
         </select>
       </div>
       <div class="filter-group">
         <label for="filter-cidade">Cidade</label>
         <select id="filter-cidade" onchange="filterVagas()">
           <option value="">Todas as cidades</option>
-          <option>Rondon&#243;polis, MT</option><option>Cuiab&#225;, MT</option>
-          <option>Campo Verde, MT</option><option>Alto Gar&#231;as, MT</option>
+          <option>Rondonópolis, MT</option><option>Cuiabá, MT</option>
+          <option>Campo Verde, MT</option><option>Alto Garças, MT</option>
         </select>
       </div>
       <div class="filter-group">
         <label for="filter-tipo">Tipo de contrato</label>
         <select id="filter-tipo" onchange="filterVagas()">
-          <option value="">Todos</option><option>CLT</option><option>PJ</option><option>Tempor&#225;rio</option><option>Est&#225;gio</option>
+          <option value="">Todos</option><option>CLT</option><option>PJ</option><option>Temporário</option><option>Estágio</option>
         </select>
       </div>
       <button class="filters-clear" onclick="clearFilters()" type="button">Limpar</button>
     </div>
     <div id="vagas-grid" class="vagas-grid"></div>
     <div style="text-align:center;margin-top:40px;">
-      <button onclick="openModal('modal-talents')" class="btn btn-ghost btn-lg">N&#227;o encontrou sua vaga? Cadastre no banco de talentos <span class="arrow">&#8594;</span></button>
+      <button onclick="openModal('modal-talents')" class="btn btn-ghost btn-lg">Não encontrou sua vaga? Cadastre no banco de talentos <span class="arrow">→</span></button>
     </div>
   </div>
 </section>
 
-<!-- ============================================================
-     DEPOIMENTOS — empresas parceiras
-     ============================================================ -->
+<!-- DEPOIMENTOS -->
 <section class="section" id="depoimentos">
   <div class="container">
     <div class="testi-header reveal">
       <span class="eyebrow">Quem contratou recomenda</span>
       <h2 style="margin-top:16px;">O que nossas empresas<br><em>parceiras dizem.</em></h2>
-      <p>Depoimentos de gestores e l&#237;deres de RH que j&#225; contrataram a Help Recrutamento para seus processos seletivos.</p>
+      <p>Depoimentos de gestores e líderes de RH que já contrataram a Help Recrutamento para seus processos seletivos.</p>
     </div>
     <div class="testi-grid">
       <div class="testi-card reveal">
-        <div class="stars" aria-label="5 de 5 estrelas">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-        <span class="testi-badge">&#10003; 4 vagas fechadas em 12 dias</span>
-        <p class="testi-quote">"Precis&#225;vamos de operadores qualificados em tempo recorde. A Help entregou 4 profissionais em 12 dias, todos com o perfil exato que pedimos. Parceria que ficou."</p>
+        <div class="stars" aria-label="5 de 5 estrelas">★★★★★</div>
+        <span class="testi-badge">✓ 4 vagas fechadas em 12 dias</span>
+        <p class="testi-quote">"Precisávamos de operadores qualificados em tempo recorde. A Help entregou 4 profissionais em 12 dias, todos com o perfil exato que pedimos. Parceria que ficou."</p>
         <div class="testi-author">
           <div class="testi-avatar" style="background:linear-gradient(135deg,var(--brand),#4A6FA5);">RL</div>
-          <div class="testi-info"><strong>Gerente de RH</strong><span>Rumo Log&#237;stica &#183; Rondon&#243;polis, MT</span></div>
+          <div class="testi-info"><strong>Gerente de RH</strong><span>Rumo Logística · Rondonópolis, MT</span></div>
         </div>
       </div>
       <div class="testi-card reveal" style="transition-delay:0.1s">
-        <div class="stars" aria-label="5 de 5 estrelas">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-        <span class="testi-badge">&#10003; Processo mais &#225;gil que o interno</span>
-        <p class="testi-quote">"O diferencial &#233; a triagem real. N&#227;o recebemos pilha de curr&#237;culo &#8212; recebemos candidatos j&#225; entrevistados e com teste comportamental. Economizamos semanas de processo seletivo."</p>
+        <div class="stars" aria-label="5 de 5 estrelas">★★★★★</div>
+        <span class="testi-badge">✓ Processo mais ágil que o interno</span>
+        <p class="testi-quote">"O diferencial é a triagem real. Não recebemos pilha de currículo — recebemos candidatos já entrevistados e com teste comportamental. Economizamos semanas de processo seletivo."</p>
         <div class="testi-author">
           <div class="testi-avatar" style="background:linear-gradient(135deg,#1a1a1a,#444);">VT</div>
-          <div class="testi-info"><strong>Analista de RH</strong><span>Vidal Transportes &#183; Campo Verde, MT</span></div>
+          <div class="testi-info"><strong>Analista de RH</strong><span>Vidal Transportes · Campo Verde, MT</span></div>
         </div>
       </div>
       <div class="testi-card reveal" style="transition-delay:0.2s">
-        <div class="stars" aria-label="5 de 5 estrelas">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-        <span class="testi-badge">&#10003; 2 contratos, 2 retidos at&#233; hoje</span>
-        <p class="testi-quote">"Contratamos para duas posi&#231;&#245;es administrativas e os dois est&#227;o conosco at&#233; hoje. A Help conhece o mercado de MT como ningu&#233;m. Indicamos sem hesita&#231;&#227;o."</p>
+        <div class="stars" aria-label="5 de 5 estrelas">★★★★★</div>
+        <span class="testi-badge">✓ 2 contratos, 2 retidos até hoje</span>
+        <p class="testi-quote">"Contratamos para duas posições administrativas e os dois estão conosco até hoje. A Help conhece o mercado de MT como ninguém. Indicamos sem hesitação."</p>
         <div class="testi-author">
           <div class="testi-avatar" style="background:linear-gradient(135deg,#333,#666);">GL</div>
-          <div class="testi-info"><strong>Gestora Administrativa</strong><span>GLT Transportes &#183; Cuiab&#225;, MT</span></div>
+          <div class="testi-info"><strong>Gestora Administrativa</strong><span>GLT Transportes · Cuiabá, MT</span></div>
         </div>
       </div>
     </div>
@@ -810,9 +798,9 @@
   <div class="talents-cta reveal">
     <div class="talents-cta-inner">
       <span class="eyebrow">Para Candidatos</span>
-      <h2>Procurando sua pr&#243;xima<br><em>oportunidade?</em></h2>
-      <p>Cadastre seu curr&#237;culo no nosso banco de talentos. Quando surgir a vaga certa, somos os primeiros a chamar &#8212; gratuitamente.</p>
-      <button onclick="openModal('modal-talents')" class="btn btn-primary btn-lg">Entrar para o banco de talentos <span class="arrow">&#8594;</span></button>
+      <h2>Procurando sua próxima<br><em>oportunidade?</em></h2>
+      <p>Cadastre seu currículo no nosso banco de talentos. Quando surgir a vaga certa, somos os primeiros a chamar — gratuitamente.</p>
+      <button onclick="openModal('modal-talents')" class="btn btn-primary btn-lg">Entrar para o banco de talentos <span class="arrow">→</span></button>
     </div>
   </div>
 </div>
@@ -822,19 +810,19 @@
   <div class="container">
     <div class="faq-grid">
       <div class="faq-side reveal">
-        <span class="eyebrow">Tirando d&#250;vidas</span>
+        <span class="eyebrow">Tirando dúvidas</span>
         <h2 style="margin-top:16px;">Perguntas <em>frequentes</em>.</h2>
-        <p>D&#250;vidas de empresas e candidatos sobre como funciona a Help Recrutamento.</p>
-        <a href="https://wa.me/5566999999999" target="_blank" rel="noopener" class="btn btn-ghost">Falar no WhatsApp <span class="arrow">&#8594;</span></a>
+        <p>Dúvidas de empresas e candidatos sobre como funciona a Help Recrutamento.</p>
+        <a href="https://wa.me/5566999999999" target="_blank" rel="noopener" class="btn btn-ghost">Falar no WhatsApp <span class="arrow">→</span></a>
       </div>
       <div class="faq-list reveal" style="transition-delay:0.1s">
-        <details class="faq-item"><summary>Como funciona a contratação da Help por uma empresa?</summary><div class="faq-item-content"><p>Voc&#234; solicita uma proposta, nossa equipe faz um <strong>briefing detalhado</strong> da vaga e da cultura da empresa, e em seguida iniciamos o processo. Apresentamos apenas candidatos j&#225; validados por nossos m&#233;todos. Sem custo para o candidato &#8212; a empresa contratante paga pelo servi&#231;o.</p></div></details>
-        <details class="faq-item"><summary>Quais métodos de seleção a Help utiliza?</summary><div class="faq-item-content"><p>Utilizamos quatro abordagens complementares: <strong>Employer Branding</strong> para atrair talentos alinhados &#224; cultura, <strong>Testes Comportamentais</strong> (DISC e fit cultural), <strong>Entrevista Estruturada</strong> por compet&#234;ncia e <strong>Din&#226;micas e Cases Pr&#225;ticos</strong> simulando situa&#231;&#245;es reais do cargo.</p></div></details>
-        <details class="faq-item"><summary>Em quanto tempo a vaga é preenchida?</summary><div class="faq-item-content"><p>Nosso tempo m&#233;dio &#233; de <strong>15 dias &#250;teis</strong> do briefing &#224; contrata&#231;&#227;o efetiva. Em perfis com boa disponibilidade em nosso banco de talentos, pode ser ainda mais r&#225;pido.</p></div></details>
-        <details class="faq-item"><summary>A Help atende apenas grandes empresas?</summary><div class="faq-item-content"><p>N&#227;o. Atendemos empresas de <strong>todos os portes</strong>, desde pequenos neg&#243;cios at&#233; grandes opera&#231;&#245;es regionais. Temos planos para 1 vaga pontual e para programas de contrata&#231;&#227;o cont&#237;nua.</p></div></details>
-        <details class="faq-item"><summary>O serviço é cobrado do candidato?</summary><div class="faq-item-content"><p><strong>N&#227;o. Nunca.</strong> O servi&#231;o &#233; 100% gratuito para candidatos. Quem paga pelo processo seletivo s&#227;o as empresas parceiras.</p></div></details>
-        <details class="faq-item"><summary>Quais regiões a Help atende?</summary><div class="faq-item-content"><p>Nosso foco &#233; o <strong>Centro-Oeste</strong>, especialmente Rondon&#243;polis, Cuiab&#225;, Campo Verde e Alto Gar&#231;as, com atua&#231;&#227;o em mais de 20 cidades do Mato Grosso.</p></div></details>
-        <details class="faq-item"><summary>Como me candidato a uma vaga como candidato?</summary><div class="faq-item-content"><p>Acesse a se&#231;&#227;o <strong>Vagas</strong> neste site, clique na vaga desejada e preencha o formul&#225;rio. Tamb&#233;m &#233; poss&#237;vel cadastrar seu curr&#237;culo no banco de talentos para ser chamado quando surgir a vaga certa.</p></div></details>
+        <details class="faq-item"><summary>Como funciona a contratação da Help por uma empresa?</summary><div class="faq-item-content"><p>Você solicita uma proposta, nossa equipe faz um <strong>briefing detalhado</strong> da vaga e da cultura da empresa, e em seguida iniciamos o processo. Apresentamos apenas candidatos já validados por nossos métodos. Sem custo para o candidato — a empresa contratante paga pelo serviço.</p></div></details>
+        <details class="faq-item"><summary>Quais métodos de seleção a Help utiliza?</summary><div class="faq-item-content"><p>Utilizamos quatro abordagens complementares: <strong>Employer Branding</strong> para atrair talentos alinhados à cultura, <strong>Testes Comportamentais</strong> (DISC e fit cultural), <strong>Entrevista Estruturada</strong> por competência e <strong>Dinâmicas e Cases Práticos</strong> simulando situações reais do cargo.</p></div></details>
+        <details class="faq-item"><summary>Em quanto tempo a vaga é preenchida?</summary><div class="faq-item-content"><p>Nosso tempo médio é de <strong>15 dias úteis</strong> do briefing à contratação efetiva. Em perfis com boa disponibilidade em nosso banco de talentos, pode ser ainda mais rápido.</p></div></details>
+        <details class="faq-item"><summary>A Help atende apenas grandes empresas?</summary><div class="faq-item-content"><p>Não. Atendemos empresas de <strong>todos os portes</strong>, desde pequenos negócios até grandes operações regionais. Temos planos para 1 vaga pontual e para programas de contratação contínua.</p></div></details>
+        <details class="faq-item"><summary>O serviço é cobrado do candidato?</summary><div class="faq-item-content"><p><strong>Não. Nunca.</strong> O serviço é 100% gratuito para candidatos. Quem paga pelo processo seletivo são as empresas parceiras.</p></div></details>
+        <details class="faq-item"><summary>Quais regiões a Help atende?</summary><div class="faq-item-content"><p>Nosso foco é o <strong>Centro-Oeste</strong>, especialmente Rondonópolis, Cuiabá, Campo Verde e Alto Garças, com atuação em mais de 20 cidades do Mato Grosso.</p></div></details>
+        <details class="faq-item"><summary>Como me candidato a uma vaga como candidato?</summary><div class="faq-item-content"><p>Acesse a seção <strong>Vagas</strong> neste site, clique na vaga desejada e preencha o formulário. Também é possível cadastrar seu currículo no banco de talentos para ser chamado quando surgir a vaga certa.</p></div></details>
       </div>
     </div>
   </div>
@@ -863,7 +851,7 @@
         <h4>Para empresas</h4>
         <div class="footer-links">
           <a href="#" onclick="event.preventDefault();openModal('modal-empresa');">Solicitar proposta</a>
-          <a href="#metodos">Nossos m&#233;todos</a>
+          <a href="#metodos">Nossos métodos</a>
           <a href="#como-funciona">Como funciona</a>
           <a href="#empresas">Por que a Help?</a>
         </div>
@@ -872,21 +860,21 @@
         <h4>Para candidatos</h4>
         <div class="footer-links">
           <a href="#vagas">Vagas abertas</a>
-          <a href="#" onclick="event.preventDefault();openModal('modal-talents');">Cadastrar curr&#237;culo</a>
+          <a href="#" onclick="event.preventDefault();openModal('modal-talents');">Cadastrar currículo</a>
           <a href="https://wa.me/5566999999999" target="_blank" rel="noopener">Falar no WhatsApp</a>
         </div>
       </div>
       <div>
         <h4>Legal</h4>
         <div class="footer-links">
-          <a href="#" onclick="event.preventDefault();openModal('modal-privacy');">Pol&#237;tica de Privacidade</a>
+          <a href="#" onclick="event.preventDefault();openModal('modal-privacy');">Política de Privacidade</a>
           <a href="#" onclick="event.preventDefault();openModal('modal-privacy');">LGPD</a>
           <a href="mailto:privacidade@helprecrutamento.com.br">Encarregado (DPO)</a>
         </div>
       </div>
     </div>
     <div class="footer-bottom">
-      <div>&#169; 2025 Help Recrutamento. Todos os direitos reservados.</div>
+      <div>© 2025 Help Recrutamento. Todos os direitos reservados.</div>
       <div>Dados protegidos pela <a href="#" onclick="event.preventDefault();openModal('modal-privacy');">Lei 13.709/2018 (LGPD)</a></div>
     </div>
   </div>
@@ -908,7 +896,7 @@
             <div class="form-field"><label for="cand-nascimento">Data de nascimento<span class="req">*</span></label><input type="date" id="cand-nascimento" name="nascimento" required /><span class="error-msg">Informe sua data de nascimento</span></div>
           </div>
           <div class="form-row">
-            <div class="form-field"><label for="cand-email">E-mail<span class="req">*</span></label><input type="email" id="cand-email" name="email" required /><span class="error-msg">Informe um e-mail v&#225;lido</span></div>
+            <div class="form-field"><label for="cand-email">E-mail<span class="req">*</span></label><input type="email" id="cand-email" name="email" required /><span class="error-msg">Informe um e-mail válido</span></div>
             <div class="form-field"><label for="cand-whatsapp">WhatsApp<span class="req">*</span></label><input type="tel" id="cand-whatsapp" name="whatsapp" placeholder="(66) 99999-9999" required /><span class="error-msg">Informe um WhatsApp</span></div>
           </div>
           <div class="form-row">
@@ -916,32 +904,32 @@
             <div class="form-field"><label for="cand-estado">Estado<span class="req">*</span></label><select id="cand-estado" name="estado" required><option value="">Selecione</option><option>MT</option><option>GO</option><option>MS</option><option>SP</option><option>RJ</option><option>Outro</option></select><span class="error-msg">Selecione um estado</span></div>
           </div>
         </div>
-        <div class="form-section"><h3>2. Forma&#231;&#227;o e experi&#234;ncia</h3>
+        <div class="form-section"><h3>2. Formação e experiência</h3>
           <div class="form-row">
-            <div class="form-field"><label for="cand-escolaridade">Escolaridade<span class="req">*</span></label><select id="cand-escolaridade" name="escolaridade" required><option value="">Selecione</option><option>Ensino Fundamental</option><option>Ensino M&#233;dio</option><option>T&#233;cnico</option><option>Superior Incompleto</option><option>Superior Completo</option><option>P&#243;s-gradua&#231;&#227;o</option></select><span class="error-msg">Selecione sua escolaridade</span></div>
-            <div class="form-field"><label for="cand-area">&#193;rea de atua&#231;&#227;o</label><select id="cand-area" name="area"><option value="">Selecione</option><option>Log&#237;stica</option><option>Operacional</option><option>Administrativo</option><option>RH</option><option>Manuten&#231;&#227;o</option><option>Seguran&#231;a</option><option>Outro</option></select></div>
+            <div class="form-field"><label for="cand-escolaridade">Escolaridade<span class="req">*</span></label><select id="cand-escolaridade" name="escolaridade" required><option value="">Selecione</option><option>Ensino Fundamental</option><option>Ensino Médio</option><option>Técnico</option><option>Superior Incompleto</option><option>Superior Completo</option><option>Pós-graduação</option></select><span class="error-msg">Selecione sua escolaridade</span></div>
+            <div class="form-field"><label for="cand-area">Área de atuação</label><select id="cand-area" name="area"><option value="">Selecione</option><option>Logística</option><option>Operacional</option><option>Administrativo</option><option>RH</option><option>Manutenção</option><option>Segurança</option><option>Outro</option></select></div>
           </div>
           <div class="form-row">
-            <div class="form-field"><label for="cand-cargo">&#218;ltimo cargo</label><input type="text" id="cand-cargo" name="cargo" /></div>
-            <div class="form-field"><label for="cand-empresa-ant">&#218;ltima empresa</label><input type="text" id="cand-empresa-ant" name="empresa_anterior" /></div>
+            <div class="form-field"><label for="cand-cargo">Último cargo</label><input type="text" id="cand-cargo" name="cargo" /></div>
+            <div class="form-field"><label for="cand-empresa-ant">Última empresa</label><input type="text" id="cand-empresa-ant" name="empresa_anterior" /></div>
           </div>
           <div class="form-row">
-            <div class="form-field"><label for="cand-tempo">Tempo de experi&#234;ncia</label><select id="cand-tempo" name="tempo"><option value="">Selecione</option><option>Sem experi&#234;ncia</option><option>Menos de 1 ano</option><option>1 a 2 anos</option><option>2 a 5 anos</option><option>Mais de 5 anos</option></select></div>
-            <div class="form-field"><label for="cand-pretensao">Preten&#231;&#227;o salarial</label><input type="text" id="cand-pretensao" name="pretensao" placeholder="R$ 0,00" /></div>
+            <div class="form-field"><label for="cand-tempo">Tempo de experiência</label><select id="cand-tempo" name="tempo"><option value="">Selecione</option><option>Sem experiência</option><option>Menos de 1 ano</option><option>1 a 2 anos</option><option>2 a 5 anos</option><option>Mais de 5 anos</option></select></div>
+            <div class="form-field"><label for="cand-pretensao">Pretensão salarial</label><input type="text" id="cand-pretensao" name="pretensao" placeholder="R$ 0,00" /></div>
           </div>
         </div>
         <div class="form-section"><h3>3. Disponibilidade</h3>
           <div class="form-row">
-            <div class="form-field"><label for="cand-cnh">CNH</label><select id="cand-cnh" name="cnh"><option>N&#227;o possuo</option><option>A</option><option>B</option><option>C</option><option>D</option><option>E</option><option>A/B</option></select></div>
-            <div class="form-field"><label for="cand-viagem">Disponibilidade para viagens</label><select id="cand-viagem" name="viagem"><option>Sim</option><option>N&#227;o</option><option>Eventualmente</option></select></div>
+            <div class="form-field"><label for="cand-cnh">CNH</label><select id="cand-cnh" name="cnh"><option>Não possuo</option><option>A</option><option>B</option><option>C</option><option>D</option><option>E</option><option>A/B</option></select></div>
+            <div class="form-field"><label for="cand-viagem">Disponibilidade para viagens</label><select id="cand-viagem" name="viagem"><option>Sim</option><option>Não</option><option>Eventualmente</option></select></div>
           </div>
           <div class="form-row cols-1">
-            <div class="form-field"><label for="cand-escala">Disponibilidade de hor&#225;rio/escala</label><input type="text" id="cand-escala" name="escala" placeholder="Ex: 6x1, 12x36, turnos" /></div>
+            <div class="form-field"><label for="cand-escala">Disponibilidade de horário/escala</label><input type="text" id="cand-escala" name="escala" placeholder="Ex: 6x1, 12x36, turnos" /></div>
           </div>
         </div>
-        <div class="lgpd-box"><strong>&#128274; Prote&#231;&#227;o de dados (LGPD)</strong>Seus dados ser&#227;o usados exclusivamente para recrutamento, conforme a Lei 13.709/2018. <a href="mailto:privacidade@helprecrutamento.com.br">privacidade@helprecrutamento.com.br</a></div>
-        <label class="checkbox-field"><input type="checkbox" id="cand-consent" name="consent" required /><span>Li e concordo com a <a href="#" onclick="event.preventDefault();openModal('modal-privacy');" style="color:var(--brand);text-decoration:underline;">Pol&#237;tica de Privacidade</a> e autorizo o uso dos meus dados conforme LGPD.</span></label>
-        <button type="submit" class="btn btn-brand btn-block btn-lg" style="margin-top:24px;" id="btn-candidatura-submit"><span class="btn-label">Enviar candidatura</span><span class="arrow">&#8594;</span></button>
+        <div class="lgpd-box"><strong>🔒 Proteção de dados (LGPD)</strong>Seus dados serão usados exclusivamente para recrutamento, conforme a Lei 13.709/2018. <a href="mailto:privacidade@helprecrutamento.com.br">privacidade@helprecrutamento.com.br</a></div>
+        <label class="checkbox-field"><input type="checkbox" id="cand-consent" name="consent" required /><span>Li e concordo com a <a href="#" onclick="event.preventDefault();openModal('modal-privacy');" style="color:var(--brand);text-decoration:underline;">Política de Privacidade</a> e autorizo o uso dos meus dados conforme LGPD.</span></label>
+        <button type="submit" class="btn btn-brand btn-block btn-lg" style="margin-top:24px;" id="btn-candidatura-submit"><span class="btn-label">Enviar candidatura</span><span class="arrow">→</span></button>
       </form>
     </div>
   </div>
@@ -955,29 +943,29 @@
       <button class="modal-close" onclick="closeModal('modal-talents')" aria-label="Fechar"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg></button>
     </div>
     <div class="modal-body">
-      <p style="font-size:15px;color:var(--muted);margin-bottom:24px;line-height:1.6;">Mesmo sem uma vaga espec&#237;fica agora, cadastre seu perfil. Quando surgir a oportunidade certa, somos os primeiros a chamar &#8212; 100% gratuito.</p>
+      <p style="font-size:15px;color:var(--muted);margin-bottom:24px;line-height:1.6;">Mesmo sem uma vaga específica agora, cadastre seu perfil. Quando surgir a oportunidade certa, somos os primeiros a chamar — 100% gratuito.</p>
       <form id="form-talents" novalidate>
         <div class="form-section"><h3>Dados pessoais</h3>
           <div class="form-row cols-1"><div class="form-field"><label for="tal-nome">Nome completo<span class="req">*</span></label><input type="text" id="tal-nome" name="nome" required /><span class="error-msg">Informe seu nome</span></div></div>
           <div class="form-row">
             <div class="form-field"><label for="tal-whatsapp">WhatsApp<span class="req">*</span></label><input type="tel" id="tal-whatsapp" name="whatsapp" placeholder="(66) 99999-9999" required /><span class="error-msg">Informe um WhatsApp</span></div>
-            <div class="form-field"><label for="tal-email">E-mail<span class="req">*</span></label><input type="email" id="tal-email" name="email" required /><span class="error-msg">Informe um e-mail v&#225;lido</span></div>
+            <div class="form-field"><label for="tal-email">E-mail<span class="req">*</span></label><input type="email" id="tal-email" name="email" required /><span class="error-msg">Informe um e-mail válido</span></div>
           </div>
-          <div class="form-row cols-1"><div class="form-field"><label for="tal-cidade">Cidade / Estado<span class="req">*</span></label><input type="text" id="tal-cidade" name="cidade" placeholder="Ex: Rondon&#243;polis, MT" required /><span class="error-msg">Informe sua cidade e estado</span></div></div>
+          <div class="form-row cols-1"><div class="form-field"><label for="tal-cidade">Cidade / Estado<span class="req">*</span></label><input type="text" id="tal-cidade" name="cidade" placeholder="Ex: Rondonópolis, MT" required /><span class="error-msg">Informe sua cidade e estado</span></div></div>
         </div>
         <div class="form-section"><h3>Perfil profissional</h3>
           <div class="form-row">
-            <div class="form-field"><label for="tal-area">&#193;rea de interesse<span class="req">*</span></label><select id="tal-area" name="area" required><option value="">Selecione</option><option>Log&#237;stica</option><option>Operacional</option><option>Administrativo</option><option>RH</option><option>Manuten&#231;&#227;o</option><option>Seguran&#231;a</option><option>Outro</option></select><span class="error-msg">Selecione uma &#225;rea</span></div>
-            <div class="form-field"><label for="tal-escolaridade">Escolaridade<span class="req">*</span></label><select id="tal-escolaridade" name="escolaridade" required><option value="">Selecione</option><option>Ensino M&#233;dio</option><option>T&#233;cnico</option><option>Superior Incompleto</option><option>Superior Completo</option><option>P&#243;s-gradua&#231;&#227;o</option></select><span class="error-msg">Selecione sua escolaridade</span></div>
+            <div class="form-field"><label for="tal-area">Área de interesse<span class="req">*</span></label><select id="tal-area" name="area" required><option value="">Selecione</option><option>Logística</option><option>Operacional</option><option>Administrativo</option><option>RH</option><option>Manutenção</option><option>Segurança</option><option>Outro</option></select><span class="error-msg">Selecione uma área</span></div>
+            <div class="form-field"><label for="tal-escolaridade">Escolaridade<span class="req">*</span></label><select id="tal-escolaridade" name="escolaridade" required><option value="">Selecione</option><option>Ensino Médio</option><option>Técnico</option><option>Superior Incompleto</option><option>Superior Completo</option><option>Pós-graduação</option></select><span class="error-msg">Selecione sua escolaridade</span></div>
           </div>
           <div class="form-row">
-            <div class="form-field"><label for="tal-pretensao">Preten&#231;&#227;o salarial</label><input type="text" id="tal-pretensao" name="pretensao" placeholder="R$ 0,00" /></div>
-            <div class="form-field"><label for="tal-cnh">CNH</label><select id="tal-cnh" name="cnh"><option>N&#227;o possuo</option><option>A/B</option><option>C</option><option>D</option><option>E</option></select></div>
+            <div class="form-field"><label for="tal-pretensao">Pretensão salarial</label><input type="text" id="tal-pretensao" name="pretensao" placeholder="R$ 0,00" /></div>
+            <div class="form-field"><label for="tal-cnh">CNH</label><select id="tal-cnh" name="cnh"><option>Não possuo</option><option>A/B</option><option>C</option><option>D</option><option>E</option></select></div>
           </div>
         </div>
-        <div class="lgpd-box"><strong>&#128274; Prote&#231;&#227;o de dados (LGPD)</strong>Dados usados exclusivamente para recrutamento, conforme Lei 13.709/2018.</div>
-        <label class="checkbox-field"><input type="checkbox" id="tal-consent" name="consent" required /><span>Li e concordo com a <a href="#" onclick="event.preventDefault();openModal('modal-privacy');" style="color:var(--brand);text-decoration:underline;">Pol&#237;tica de Privacidade</a> e autorizo o uso dos meus dados conforme LGPD.</span></label>
-        <button type="submit" class="btn btn-brand btn-block btn-lg" style="margin-top:24px;" id="btn-talents-submit"><span class="btn-label">Cadastrar no banco de talentos</span><span class="arrow">&#8594;</span></button>
+        <div class="lgpd-box"><strong>🔒 Proteção de dados (LGPD)</strong>Dados usados exclusivamente para recrutamento, conforme Lei 13.709/2018.</div>
+        <label class="checkbox-field"><input type="checkbox" id="tal-consent" name="consent" required /><span>Li e concordo com a <a href="#" onclick="event.preventDefault();openModal('modal-privacy');" style="color:var(--brand);text-decoration:underline;">Política de Privacidade</a> e autorizo o uso dos meus dados conforme LGPD.</span></label>
+        <button type="submit" class="btn btn-brand btn-block btn-lg" style="margin-top:24px;" id="btn-talents-submit"><span class="btn-label">Cadastrar no banco de talentos</span><span class="arrow">→</span></button>
       </form>
     </div>
   </div>
@@ -991,26 +979,26 @@
       <button class="modal-close" onclick="closeModal('modal-empresa')" aria-label="Fechar"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg></button>
     </div>
     <div class="modal-body">
-      <p style="font-size:15px;color:var(--muted);margin-bottom:24px;line-height:1.6;">Preencha os dados abaixo e nossa equipe entra em contato em at&#233; 1 hora em dias &#250;teis com uma proposta personalizada.</p>
+      <p style="font-size:15px;color:var(--muted);margin-bottom:24px;line-height:1.6;">Preencha os dados abaixo e nossa equipe entra em contato em até 1 hora em dias úteis com uma proposta personalizada.</p>
       <form id="form-empresa" novalidate>
         <div class="form-section"><h3>Dados da empresa</h3>
           <div class="form-row">
             <div class="form-field"><label for="emp-empresa">Nome da empresa<span class="req">*</span></label><input type="text" id="emp-empresa" name="empresa" required /><span class="error-msg">Informe o nome da empresa</span></div>
-            <div class="form-field"><label for="emp-segmento">Segmento</label><select id="emp-segmento" name="segmento"><option value="">Selecione</option><option>Log&#237;stica / Transportes</option><option>Agroneg&#243;cio</option><option>Ind&#250;stria</option><option>Com&#233;rcio / Varejo</option><option>Servi&#231;os</option><option>Outro</option></select></div>
+            <div class="form-field"><label for="emp-segmento">Segmento</label><select id="emp-segmento" name="segmento"><option value="">Selecione</option><option>Logística / Transportes</option><option>Agronegócio</option><option>Indústria</option><option>Comércio / Varejo</option><option>Serviços</option><option>Outro</option></select></div>
           </div>
           <div class="form-row">
-            <div class="form-field"><label for="emp-cidade">Cidade<span class="req">*</span></label><input type="text" id="emp-cidade" name="cidade" placeholder="Ex: Rondon&#243;polis, MT" required /><span class="error-msg">Informe a cidade</span></div>
+            <div class="form-field"><label for="emp-cidade">Cidade<span class="req">*</span></label><input type="text" id="emp-cidade" name="cidade" placeholder="Ex: Rondonópolis, MT" required /><span class="error-msg">Informe a cidade</span></div>
             <div class="form-field"><label for="emp-vagas-qtd">Qtd. de vagas</label><select id="emp-vagas-qtd" name="vagas_qtd"><option value="">Selecione</option><option>1 vaga</option><option>2 a 5 vagas</option><option>6 a 10 vagas</option><option>Mais de 10 vagas</option></select></div>
           </div>
         </div>
-        <div class="form-section"><h3>Contato do respons&#225;vel</h3>
+        <div class="form-section"><h3>Contato do responsável</h3>
           <div class="form-row">
-            <div class="form-field"><label for="emp-nome">Nome do respons&#225;vel<span class="req">*</span></label><input type="text" id="emp-nome" name="nome_responsavel" required /><span class="error-msg">Informe o nome do respons&#225;vel</span></div>
+            <div class="form-field"><label for="emp-nome">Nome do responsável<span class="req">*</span></label><input type="text" id="emp-nome" name="nome_responsavel" required /><span class="error-msg">Informe o nome do responsável</span></div>
             <div class="form-field"><label for="emp-cargo">Cargo</label><input type="text" id="emp-cargo" name="cargo_responsavel" placeholder="Ex: Gerente de RH" /></div>
           </div>
           <div class="form-row">
             <div class="form-field"><label for="emp-whatsapp">WhatsApp<span class="req">*</span></label><input type="tel" id="emp-whatsapp" name="whatsapp" placeholder="(66) 99999-9999" required /><span class="error-msg">Informe um WhatsApp</span></div>
-            <div class="form-field"><label for="emp-email">E-mail<span class="req">*</span></label><input type="email" id="emp-email" name="email" required /><span class="error-msg">Informe um e-mail v&#225;lido</span></div>
+            <div class="form-field"><label for="emp-email">E-mail<span class="req">*</span></label><input type="email" id="emp-email" name="email" required /><span class="error-msg">Informe um e-mail válido</span></div>
           </div>
         </div>
         <div class="form-section"><h3>Sobre a necessidade</h3>
@@ -1018,8 +1006,8 @@
             <div class="form-field"><label for="emp-mensagem">Descreva brevemente as vagas ou necessidades</label><textarea id="emp-mensagem" name="mensagem" placeholder="Ex: Preciso contratar 3 motoristas carreteiros com CNH E para rotas no MT..."></textarea></div>
           </div>
         </div>
-        <div class="lgpd-box"><strong>&#128274; Seus dados est&#227;o seguros</strong>As informa&#231;&#245;es s&#227;o usadas exclusivamente para elaborar sua proposta, conforme a Lei 13.709/2018 (LGPD).</div>
-        <button type="submit" class="btn btn-brand btn-block btn-lg" style="margin-top:24px;" id="btn-empresa-submit"><span class="btn-label">Enviar solicita&#231;&#227;o</span><span class="arrow">&#8594;</span></button>
+        <div class="lgpd-box"><strong>🔒 Seus dados estão seguros</strong>As informações são usadas exclusivamente para elaborar sua proposta, conforme a Lei 13.709/2018 (LGPD).</div>
+        <button type="submit" class="btn btn-brand btn-block btn-lg" style="margin-top:24px;" id="btn-empresa-submit"><span class="btn-label">Enviar solicitação</span><span class="arrow">→</span></button>
       </form>
     </div>
   </div>
@@ -1032,13 +1020,13 @@
       <div class="success-state">
         <div class="success-icon"><svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></div>
         <h2 id="suc-title">Enviado <em>com sucesso!</em></h2>
-        <p id="suc-msg">Recebemos seu contato. Nossa equipe entrar&#225; em contato em breve.</p>
+        <p id="suc-msg">Recebemos seu contato. Nossa equipe entrará em contato em breve.</p>
         <div class="next-steps">
           <h4>O que acontece agora</h4>
           <ol>
-            <li><div><strong>Em at&#233; 1h em dias &#250;teis</strong>Nossa equipe analisa e entra em contato.</div></li>
-            <li><div><strong>Contato pelo WhatsApp</strong>Retornamos pelo n&#250;mero oficial da Help.</div></li>
-            <li><div><strong>Pr&#243;ximos passos</strong>Encaminhamos para a etapa correspondente ao seu perfil.</div></li>
+            <li><div><strong>Em até 1h em dias úteis</strong>Nossa equipe analisa e entra em contato.</div></li>
+            <li><div><strong>Contato pelo WhatsApp</strong>Retornamos pelo número oficial da Help.</div></li>
+            <li><div><strong>Próximos passos</strong>Encaminhamos para a etapa correspondente ao seu perfil.</div></li>
           </ol>
         </div>
         <button onclick="closeModal('modal-success')" class="btn btn-primary btn-lg">Entendi, fechar</button>
@@ -1051,20 +1039,20 @@
 <div class="modal-backdrop" id="modal-privacy" onclick="if(event.target===this)closeModal('modal-privacy')">
   <div class="modal" role="dialog" aria-modal="true">
     <div class="modal-header">
-      <h2>Pol&#237;tica de <em>Privacidade</em></h2>
+      <h2>Política de <em>Privacidade</em></h2>
       <button class="modal-close" onclick="closeModal('modal-privacy')" aria-label="Fechar"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg></button>
     </div>
     <div class="modal-body">
       <div class="privacy-content">
-        <h3>1. Quem somos</h3><p>A <strong>Help Recrutamento</strong> &#233; a controladora dos dados pessoais coletados neste site, conforme a <strong>LGPD &#8212; Lei n. 13.709/2018</strong>.</p>
-        <h3>2. Finalidade</h3><ul><li>Avalia&#231;&#227;o e triagem de candidatos;</li><li>Forma&#231;&#227;o e manuten&#231;&#227;o do banco de talentos;</li><li>Atendimento a empresas solicitantes de recrutamento;</li><li>Encaminhamento a empresas parceiras, com seu consentimento.</li></ul>
-        <h3>3. Dados coletados</h3><ul><li><strong>Candidatos:</strong> nome, nascimento, e-mail, WhatsApp, cidade, estado, forma&#231;&#227;o, experi&#234;ncia, &#225;rea, preten&#231;&#227;o, CNH, disponibilidade.</li><li><strong>Empresas:</strong> nome da empresa, segmento, respons&#225;vel, e-mail, WhatsApp, necessidades de recrutamento.</li></ul>
+        <h3>1. Quem somos</h3><p>A <strong>Help Recrutamento</strong> é a controladora dos dados pessoais coletados neste site, conforme a <strong>LGPD — Lei n. 13.709/2018</strong>.</p>
+        <h3>2. Finalidade</h3><ul><li>Avaliação e triagem de candidatos;</li><li>Formação e manutenção do banco de talentos;</li><li>Atendimento a empresas solicitantes de recrutamento;</li><li>Encaminhamento a empresas parceiras, com seu consentimento.</li></ul>
+        <h3>3. Dados coletados</h3><ul><li><strong>Candidatos:</strong> nome, nascimento, e-mail, WhatsApp, cidade, estado, formação, experiência, área, pretensão, CNH, disponibilidade.</li><li><strong>Empresas:</strong> nome da empresa, segmento, responsável, e-mail, WhatsApp, necessidades de recrutamento.</li></ul>
         <h3>4. Base legal</h3><p>Consentimento expresso do titular (Art. 7, I da LGPD).</p>
-        <h3>5. Tempo de reten&#231;&#227;o</h3><p>Mantidos por <strong>at&#233; 24 meses</strong>, ou at&#233; solicita&#231;&#227;o de exclus&#227;o.</p>
-        <h3>6. Compartilhamento</h3><p>Dados <strong>nunca vendidos</strong>. Compartilhados com empresas parceiras apenas com sua ci&#234;ncia.</p>
-        <h3>7. Seus direitos</h3><ul><li>Acesso, corre&#231;&#227;o ou exclus&#227;o dos dados;</li><li>Revoga&#231;&#227;o do consentimento a qualquer tempo;</li><li>Portabilidade dos dados.</li></ul>
+        <h3>5. Tempo de retenção</h3><p>Mantidos por <strong>até 24 meses</strong>, ou até solicitação de exclusão.</p>
+        <h3>6. Compartilhamento</h3><p>Dados <strong>nunca vendidos</strong>. Compartilhados com empresas parceiras apenas com sua ciência.</p>
+        <h3>7. Seus direitos</h3><ul><li>Acesso, correção ou exclusão dos dados;</li><li>Revogação do consentimento a qualquer tempo;</li><li>Portabilidade dos dados.</li></ul>
         <h3>8. Contato (DPO)</h3><p><a href="mailto:privacidade@helprecrutamento.com.br">privacidade@helprecrutamento.com.br</a></p>
-        <div class="privacy-meta">&#218;ltima atualiza&#231;&#227;o: Janeiro de 2025 &#183; Vers&#227;o 2.0</div>
+        <div class="privacy-meta">Última atualização: Janeiro de 2025 · Versão 2.0</div>
       </div>
     </div>
   </div>
